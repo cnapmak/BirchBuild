@@ -36,7 +36,7 @@ export const allProperties: Property[] = [
   { address: "1517 W. Pearson",   neighborhood: "Noble Square",       type: "Residential", slug: "1517-w-pearson",    img: "https://resources.atproperties.com/images/MRED/11/004/099/603824ca37722/1.jpg" },
   { address: "2207 W. Chicago",   neighborhood: "Ukrainian Village",  type: "Mixed-Use",   slug: "2207-w-chicago",    img: "https://resources.atproperties.com/images/MRED/12/370/404/682cc915dc488/1.jpg" },
   { address: "532 N. Hermitage",  neighborhood: "Noble Square",       type: "Commercial",  slug: "532-n-hermitage",   img: "https://resources.atproperties.com/images/MRED/11/707/603/63dab3a4ad9b4/1.jpg" },
-  { address: "1457 W. Erie",      neighborhood: "Noble Square",       type: "Commercial",  slug: "1457-w-erie",       img: "https://d229qcohg01jma.cloudfront.net/MRED/08/287/588/1.jpg" },
+  { address: "1457 W. Erie",      neighborhood: "Noble Square",       type: "Commercial",  slug: "1457-w-erie",       img: "https://resources.atproperties.com/images/MRED/12/554/940/6984e7a6ed6b0/1.jpg" },
   { address: "1013 N. Honore",    neighborhood: "Noble Square",       type: "Residential", slug: "1013-n-honore",     img: "https://d229qcohg01jma.cloudfront.net/MRED/09/498/055/1.jpg" },
   { address: "1731 N. Richmond",  neighborhood: "Wicker Park",        type: "Residential", slug: "1731-n-richmond",   img: "https://resources.atproperties.com/images/MRED/11/253/427/6179fc6d3cae0/1.jpg" },
   { address: "1002 N. Hermitage", neighborhood: "Noble Square",       type: "Residential", slug: "1002-n-hermitage",  img: "https://resources.atproperties.com/images/MRED/10/877/570/5f6a433954d6c/1.jpg" },
