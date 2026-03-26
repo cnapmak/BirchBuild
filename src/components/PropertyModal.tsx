@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import type { Property } from "./ExpandablePropertyGrid";
 
 interface Props {
@@ -23,7 +24,7 @@ export default function PropertyModal({ property: p, onClose }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
       onClick={onClose}
     >
       {/* Backdrop */}
@@ -79,10 +80,17 @@ export default function PropertyModal({ property: p, onClose }: Props) {
             {p.address}
           </h2>
           <div className="text-xs text-[#2980B9] mb-4">Chicago, IL</div>
-          <p className="text-sm text-[#1C3050] leading-relaxed">
+          <p className="text-sm text-[#1C3050] leading-relaxed mb-5">
             {p.description ??
               "Construction and renovation project completed by BirchBuild in one of Chicago's most sought-after neighborhoods."}
           </p>
+          <Link
+            href={`/projects/${p.slug}`}
+            onClick={onClose}
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-[#1A4F8A] hover:text-[#0B2A4A] transition-colors"
+          >
+            View Full Details →
+          </Link>
         </div>
       </div>
     </div>

@@ -14,43 +14,43 @@ export const metadata: Metadata = {
 
 // All real addresses from birchbuild.org with confirmed listing photos
 export const allProperties: Property[] = [
-  { address: "1350 N. Campbell",  neighborhood: "Wicker Park",      type: "Residential", img: "https://img.urbanre.com/propertyimage/500x375/MRD11369958/6378530604/1350-N-Campbell-Unit-2-Chicago-IL-60622-0.jpg" },
-  { address: "2647 W. Haddon",    neighborhood: "Humboldt Park",     type: "Residential", img: "https://d229qcohg01jma.cloudfront.net/MRED/09/976/063/1.jpg" },
-  { address: "2029 W. Rice",      neighborhood: "Ukrainian Village",  type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/421/970/68811b2107658/1.jpg" },
-  { address: "2027 W. Rice",      neighborhood: "Ukrainian Village",  type: "Residential", img: "https://d229qcohg01jma.cloudfront.net/MRED/08/942/270/1.jpg" },
-  { address: "1849 W. Armitage",  neighborhood: "Bucktown",           type: "Mixed-Use",   img: "https://pi.movoto.com/p/461/12276996_0_jzAIqn_p.webp" },
-  { address: "2032 W. Superior",  neighborhood: "Ukrainian Village",  type: "Commercial",  img: "https://resources.atproperties.com/images/MRED/11/024/504/6052b6033f013/1.jpg" },
-  { address: "1037 N. Marshfield",neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/11/904/571/6525943c7eec2/1.jpg" },
-  { address: "1039 N. Marshfield",neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/476/230/68d30f9a114d6/1.jpg" },
-  { address: "2702-12 W. Chicago",neighborhood: "Ukrainian Village",  type: "Mixed-Use",   img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg" },
-  { address: "2241 W. Roscoe",    neighborhood: "Roscoe Village",     type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/586/613/69baf2cba8791/1.jpg" },
-  { address: "2243 W. Roscoe",    neighborhood: "Roscoe Village",     type: "Residential", img: "https://img.urbanre.com/propertyimage/500x375/MRD10783533/6373086828/2243-W-Roscoe-Unit-2-Chicago-IL-60618-0.jpg" },
-  { address: "1331 N. Mohawk",    neighborhood: "Old Town",           type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/001/349/66058dad2d82f/1.jpg" },
-  { address: "2116 W. Barry",     neighborhood: "Roscoe Village",     type: "Residential", img: "https://resources.atproperties.com/images/MRED/10/927/492/5fb81d68bb594/1.jpg" },
-  { address: "1438 N. Wood",      neighborhood: "Wicker Park",        type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/004/070/65f3928d2a1c6/1.jpg" },
-  { address: "922 N. Hermitage",  neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/411/779/686c685b326f0/1.jpg" },
-  { address: "1527 W. Chestnut",  neighborhood: "Noble Square",       type: "Commercial",  img: "https://resources.atproperties.com/images/MRED/11/213/465/613a202cd41f2/1.jpg" },
-  { address: "1074 N. Paulina",   neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/10/712/510/5ebf38f60d147/1.jpg" },
-  { address: "1108 W. Fry",       neighborhood: "Noble Square",       type: "Commercial",  img: "https://d229qcohg01jma.cloudfront.net/MRED/09/483/252/1.jpg" },
-  { address: "814-20 N. Wood",    neighborhood: "Wicker Park",        type: "Mixed-Use",   img: "https://resources.atproperties.com/images/MRED/11/749/131/64270e98aea39/1.jpg" },
-  { address: "1517 W. Pearson",   neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/11/004/099/603824ca37722/1.jpg" },
-  { address: "2207 W. Chicago",   neighborhood: "Ukrainian Village",  type: "Mixed-Use",   img: "https://resources.atproperties.com/images/MRED/12/370/404/682cc915dc488/1.jpg" },
-  { address: "532 N. Hermitage",  neighborhood: "Noble Square",       type: "Commercial",  img: "https://img.urbanre.com/propertyimage/500x375/MRD07738688/6343416972/532-N-Hermitage-Chicago-IL-60622-0.jpg" },
-  { address: "1457 W. Erie",      neighborhood: "Noble Square",       type: "Commercial",  img: "https://d229qcohg01jma.cloudfront.net/MRED/08/287/588/1.jpg" },
-  { address: "1013 N. Honore",    neighborhood: "Noble Square",       type: "Residential", img: "https://d229qcohg01jma.cloudfront.net/MRED/09/498/055/1.jpg" },
-  { address: "1731 N. Richmond",  neighborhood: "Wicker Park",        type: "Residential", img: "https://resources.atproperties.com/images/MRED/11/253/427/6179fc6d3cae0/1.jpg" },
-  { address: "1002 N. Hermitage", neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/10/877/570/5f6a433954d6c/1.jpg" },
-  { address: "756 N. Leavitt",    neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg" },
-  { address: "1809 W. Chicago",   neighborhood: "Ukrainian Village",  type: "Mixed-Use",   img: "https://resources.atproperties.com/images/MRED/11/939/157/6570abbb19692/1.jpg" },
-  { address: "1756 W. Wabansia",  neighborhood: "Wicker Park",        type: "Residential", img: "https://d229qcohg01jma.cloudfront.net/MRED/09/220/012/1.jpg" },
-  { address: "1305 W. Chicago",   neighborhood: "Noble Square",       type: "Commercial",  img: "https://resources.atproperties.com/images/MRED/10/587/148/5de96df38c366/1.jpg" },
-  { address: "1944 W. Crystal",   neighborhood: "Ukrainian Village",  type: "Residential", img: "https://resources.atproperties.com/images/MRED/12/106/279/668ee6bb110f9/1.jpg" },
-  { address: "1433 N. Ashland",   neighborhood: "Wicker Park",        type: "Mixed-Use",   img: "https://resources.atproperties.com/images/MRED/12/381/274/683dc1eb16218/1.jpg" },
-  { address: "1512 W. Huron",     neighborhood: "Noble Square",       type: "Commercial",  img: "https://img.urbanre.com/propertyimage/500x375/MRD12346426/6388104366/1512-W-Huron-Unit-1-Chicago-IL-60642-0.jpg" },
-  { address: "1106 N. Marshfield",neighborhood: "Noble Square",       type: "Residential", img: "https://resources.atproperties.com/images/MRED/11/309/968/61eed3c7cd430/1.jpg" },
-  { address: "1468 N. Ashland",   neighborhood: "Wicker Park",        type: "Mixed-Use",   img: "https://resources.atproperties.com/images/MRED/11/195/395/6148ced3a6578/1.jpg" },
-  { address: "1739 W. Julian",    neighborhood: "Ukrainian Village",  type: "Residential", img: "https://resources.atproperties.com/images/MRED/10/926/342/5fa46e4dbce37/1.jpg" },
-  { address: "1314 N. Greenview", neighborhood: "Old Town",           type: "Residential", img: "https://resources.atproperties.com/images/MRED/11/266/642/618ade91cf478/1.jpg" },
+  { address: "1350 N. Campbell",  neighborhood: "Wicker Park",       type: "Residential", slug: "1350-n-campbell",   img: "https://img.urbanre.com/propertyimage/500x375/MRD11369958/6378530604/1350-N-Campbell-Unit-2-Chicago-IL-60622-0.jpg" },
+  { address: "2647 W. Haddon",    neighborhood: "Ukrainian Village",  type: "Residential", slug: "2647-w-haddon",     img: "https://d229qcohg01jma.cloudfront.net/MRED/09/976/063/1.jpg" },
+  { address: "2029 W. Rice",      neighborhood: "Ukrainian Village",  type: "Residential", slug: "2029-w-rice",       img: "https://resources.atproperties.com/images/MRED/12/421/970/68811b2107658/1.jpg" },
+  { address: "2027 W. Rice",      neighborhood: "Ukrainian Village",  type: "Residential", slug: "2027-w-rice",       img: "https://d229qcohg01jma.cloudfront.net/MRED/08/942/270/1.jpg" },
+  { address: "1849 W. Armitage",  neighborhood: "Bucktown",           type: "Mixed-Use",   slug: "1849-w-armitage",   img: "https://pi.movoto.com/p/461/12276996_0_jzAIqn_p.webp" },
+  { address: "2032 W. Superior",  neighborhood: "Ukrainian Village",  type: "Commercial",  slug: "2032-w-superior",   img: "https://resources.atproperties.com/images/MRED/11/024/504/6052b6033f013/1.jpg" },
+  { address: "1037 N. Marshfield",neighborhood: "Noble Square",       type: "Residential", slug: "1037-n-marshfield", img: "https://resources.atproperties.com/images/MRED/11/904/571/6525943c7eec2/1.jpg" },
+  { address: "1039 N. Marshfield",neighborhood: "Noble Square",       type: "Residential", slug: "1039-n-marshfield", img: "https://resources.atproperties.com/images/MRED/12/476/230/68d30f9a114d6/1.jpg" },
+  { address: "2702-12 W. Chicago",neighborhood: "Ukrainian Village",  type: "Mixed-Use",   slug: "2702-w-chicago",    img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg" },
+  { address: "2241 W. Roscoe",    neighborhood: "Roscoe Village",     type: "Residential", slug: "2241-w-roscoe",     img: "https://resources.atproperties.com/images/MRED/12/586/613/69baf2cba8791/1.jpg" },
+  { address: "2243 W. Roscoe",    neighborhood: "Roscoe Village",     type: "Residential", slug: "2243-w-roscoe",     img: "https://img.urbanre.com/propertyimage/500x375/MRD10783533/6373086828/2243-W-Roscoe-Unit-2-Chicago-IL-60618-0.jpg" },
+  { address: "1331 N. Mohawk",    neighborhood: "Old Town",           type: "Residential", slug: "1331-n-mohawk",     img: "https://resources.atproperties.com/images/MRED/12/001/349/66058dad2d82f/1.jpg" },
+  { address: "2116 W. Barry",     neighborhood: "Lakeview",           type: "Residential", slug: "2116-w-barry",      img: "https://resources.atproperties.com/images/MRED/10/927/492/5fb81d68bb594/1.jpg" },
+  { address: "1438 N. Wood",      neighborhood: "Wicker Park",        type: "Residential", slug: "1438-n-wood",       img: "https://resources.atproperties.com/images/MRED/12/004/070/65f3928d2a1c6/1.jpg" },
+  { address: "922 N. Hermitage",  neighborhood: "Noble Square",       type: "Residential", slug: "922-n-hermitage",   img: "https://resources.atproperties.com/images/MRED/12/411/779/686c685b326f0/1.jpg" },
+  { address: "1527 W. Chestnut",  neighborhood: "Noble Square",       type: "Commercial",  slug: "1527-w-chestnut",   img: "https://resources.atproperties.com/images/MRED/11/213/465/613a202cd41f2/1.jpg" },
+  { address: "1074 N. Paulina",   neighborhood: "Noble Square",       type: "Residential", slug: "1074-n-paulina",    img: "https://resources.atproperties.com/images/MRED/10/712/510/5ebf38f60d147/1.jpg" },
+  { address: "1108 W. Fry",       neighborhood: "Noble Square",       type: "Commercial",  slug: "1108-w-fry",        img: "https://d229qcohg01jma.cloudfront.net/MRED/09/483/252/1.jpg" },
+  { address: "814-20 N. Wood",    neighborhood: "East Village",       type: "Mixed-Use",   slug: "814-n-wood",        img: "https://resources.atproperties.com/images/MRED/11/749/131/64270e98aea39/1.jpg" },
+  { address: "1517 W. Pearson",   neighborhood: "Noble Square",       type: "Residential", slug: "1517-w-pearson",    img: "https://resources.atproperties.com/images/MRED/11/004/099/603824ca37722/1.jpg" },
+  { address: "2207 W. Chicago",   neighborhood: "Ukrainian Village",  type: "Mixed-Use",   slug: "2207-w-chicago",    img: "https://resources.atproperties.com/images/MRED/12/370/404/682cc915dc488/1.jpg" },
+  { address: "532 N. Hermitage",  neighborhood: "Noble Square",       type: "Commercial",  slug: "532-n-hermitage",   img: "https://resources.atproperties.com/images/MRED/11/707/603/63dab3a4ad9b4/1.jpg" },
+  { address: "1457 W. Erie",      neighborhood: "Noble Square",       type: "Commercial",  slug: "1457-w-erie",       img: "https://d229qcohg01jma.cloudfront.net/MRED/08/287/588/1.jpg" },
+  { address: "1013 N. Honore",    neighborhood: "Noble Square",       type: "Residential", slug: "1013-n-honore",     img: "https://d229qcohg01jma.cloudfront.net/MRED/09/498/055/1.jpg" },
+  { address: "1731 N. Richmond",  neighborhood: "Wicker Park",        type: "Residential", slug: "1731-n-richmond",   img: "https://resources.atproperties.com/images/MRED/11/253/427/6179fc6d3cae0/1.jpg" },
+  { address: "1002 N. Hermitage", neighborhood: "Noble Square",       type: "Residential", slug: "1002-n-hermitage",  img: "https://resources.atproperties.com/images/MRED/10/877/570/5f6a433954d6c/1.jpg" },
+  { address: "756 N. Leavitt",    neighborhood: "Noble Square",       type: "Residential", slug: "756-n-leavitt",     img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg" },
+  { address: "1809 W. Chicago",   neighborhood: "Ukrainian Village",  type: "Mixed-Use",   slug: "1809-w-chicago",    img: "https://resources.atproperties.com/images/MRED/11/939/157/6570abbb19692/1.jpg" },
+  { address: "1756 W. Wabansia",  neighborhood: "Wicker Park",        type: "Residential", slug: "1756-w-wabansia",   img: "https://d229qcohg01jma.cloudfront.net/MRED/09/220/012/1.jpg" },
+  { address: "1305 W. Chicago",   neighborhood: "Noble Square",       type: "Commercial",  slug: "1305-w-chicago",    img: "https://resources.atproperties.com/images/MRED/10/587/148/5de96df38c366/1.jpg" },
+  { address: "1944 W. Crystal",   neighborhood: "Ukrainian Village",  type: "Residential", slug: "1944-w-crystal",    img: "https://resources.atproperties.com/images/MRED/12/106/279/668ee6bb110f9/1.jpg" },
+  { address: "1433 N. Ashland",   neighborhood: "Wicker Park",        type: "Mixed-Use",   slug: "1433-n-ashland",    img: "https://resources.atproperties.com/images/MRED/12/381/274/683dc1eb16218/1.jpg" },
+  { address: "1512 W. Huron",     neighborhood: "Noble Square",       type: "Commercial",  slug: "1512-w-huron",      img: "https://img.urbanre.com/propertyimage/500x375/MRD12346426/6388104366/1512-W-Huron-Unit-1-Chicago-IL-60642-0.jpg" },
+  { address: "1106 N. Marshfield",neighborhood: "Noble Square",       type: "Residential", slug: "1106-n-marshfield", img: "https://resources.atproperties.com/images/MRED/11/309/968/61eed3c7cd430/1.jpg" },
+  { address: "1468 N. Ashland",   neighborhood: "Wicker Park",        type: "Mixed-Use",   slug: "1468-n-ashland",    img: "https://resources.atproperties.com/images/MRED/11/195/395/6148ced3a6578/1.jpg" },
+  { address: "1739 W. Julian",    neighborhood: "Ukrainian Village",  type: "Residential", slug: "1739-w-julian",     img: "https://resources.atproperties.com/images/MRED/10/926/342/5fa46e4dbce37/1.jpg" },
+  { address: "1314 N. Greenview", neighborhood: "Old Town",           type: "Residential", slug: "1314-n-greenview",  img: "https://resources.atproperties.com/images/MRED/11/266/642/618ade91cf478/1.jpg" },
 ];
 
 // Pins for the map
@@ -99,6 +99,7 @@ const featuredProjects = [
     name: "2702-12 W. Chicago Ave",
     neighborhood: "Ukrainian Village",
     type: "Mixed-Use",
+    slug: "2702-w-chicago",
     address: "2702-12 W. Chicago Ave, Chicago, IL 60622",
     img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg",
     description:
@@ -109,6 +110,7 @@ const featuredProjects = [
     name: "1849 W. Armitage Ave",
     neighborhood: "Bucktown",
     type: "Mixed-Use",
+    slug: "1849-w-armitage",
     address: "1849 W. Armitage Ave, Chicago, IL 60622",
     img: "https://pi.movoto.com/p/461/12276996_0_jzAIqn_p.webp",
     description:
@@ -119,6 +121,7 @@ const featuredProjects = [
     name: "1350 N. Campbell Ave",
     neighborhood: "Wicker Park",
     type: "Residential",
+    slug: "1350-n-campbell",
     address: "1350 N. Campbell Ave, Chicago, IL 60622",
     img: "https://img.urbanre.com/propertyimage/500x375/MRD11369958/6378530604/1350-N-Campbell-Unit-2-Chicago-IL-60622-0.jpg",
     description:
@@ -183,7 +186,7 @@ export default function ProjectsPage() {
                   <p className="text-sm text-[#1C3050] leading-relaxed mb-4">
                     {p.description}
                   </p>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-5">
                     {p.highlights.map((h) => (
                       <span
                         key={h}
@@ -193,6 +196,12 @@ export default function ProjectsPage() {
                       </span>
                     ))}
                   </div>
+                  <Link
+                    href={`/projects/${p.slug}`}
+                    className="inline-flex items-center gap-1 text-sm font-medium text-[#1A4F8A] hover:text-[#0B2A4A] transition-colors"
+                  >
+                    View Details →
+                  </Link>
                 </div>
               </div>
             ))}
@@ -226,7 +235,7 @@ export default function ProjectsPage() {
               Wicker Park, and Bucktown.
             </p>
           </div>
-          <MapWrapper pins={allPins} />
+          <MapWrapper pins={allPins} properties={allProperties} />
         </div>
       </section>
 

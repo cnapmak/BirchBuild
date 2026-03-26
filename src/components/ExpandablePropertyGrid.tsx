@@ -9,6 +9,7 @@ export interface Property {
   address: string;
   neighborhood: string;
   type: string;
+  slug: string;
   img?: string;
   description?: string;
 }
