@@ -47,7 +47,7 @@ const featuredProjects = [
   },
   {
     name: "1849 W. Armitage Ave",
-    type: "Mixed-Use",
+    type: "Residential",
     location: "Bucktown, Chicago",
     status: "Completed",
     description:
