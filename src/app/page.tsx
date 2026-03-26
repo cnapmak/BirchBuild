@@ -2,35 +2,35 @@ import Link from "next/link";
 import Image from "next/image";
 
 const stats = [
-  { value: "150+", label: "Projects Completed" },
-  { value: "$2B+", label: "Construction Value Managed" },
+  { value: "35+", label: "Projects Completed" },
+  { value: "$50M+", label: "Construction Value Managed" },
   { value: "98%", label: "On-Time Delivery" },
   { value: "20+", label: "Years Experience" },
 ];
 
 const services = [
   {
-    title: "Project Management",
-    description:
-      "End-to-end oversight from pre-construction through closeout. We keep projects on schedule, on budget, and on spec.",
-    icon: "◈",
-  },
-  {
     title: "Owner's Representation",
     description:
-      "We act as your eyes on the ground — protecting your interests and coordinating all project stakeholders.",
+      "We represent you — not the GC, not the architect. No financial stake in the construction contract means our only job is protecting your budget, timeline, and vision.",
     icon: "◉",
   },
   {
-    title: "Pre-Construction Planning",
+    title: "Construction Project Management",
     description:
-      "Budget development, scheduling, contractor procurement, and risk assessment before a single shovel hits the ground.",
+      "Daily oversight of general contractors, subcontractors, and design teams. We review every change order, track the master schedule, and flag problems before they compound.",
+    icon: "◈",
+  },
+  {
+    title: "Preconstruction & Budgeting",
+    description:
+      "The decisions you make before construction starts determine the outcome. We build your budget, assemble the right team, and review plans for constructability before a permit is filed.",
     icon: "◐",
   },
   {
-    title: "Tenant Improvements",
+    title: "Chicago Permitting & Entitlements",
     description:
-      "Fast-track commercial interior buildouts designed around your tenants' timelines and requirements.",
+      "Chicago's Department of Buildings moves on its own timeline. We know the process, the pitfalls, and the people — so your project doesn't lose months waiting on a plan review.",
     icon: "◑",
   },
 ];
@@ -128,7 +128,7 @@ export default function Home() {
               ))}
             </div>
             <div className="mt-8 pt-6 border-t border-white/10 text-xs text-[#5AAED6] font-medium uppercase tracking-widest">
-              Trusted by leading developers &amp; institutions
+              West Town · Ukrainian Village · Wicker Park · Bucktown
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function Home() {
               What We Do
             </div>
             <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-[#0B2A4A]">
-              Full-Spectrum Construction Management
+              We Build the Process.<br />Your GC Builds the Project.
             </h2>
           </div>
 

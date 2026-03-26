@@ -4,78 +4,98 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services | BirchBuild",
   description:
-    "Construction project management services for commercial real estate — from pre-construction planning to owner's representation.",
+    "Construction project management and owner's representation for Chicago developers and investors — from preconstruction through certificate of occupancy.",
 };
 
 const services = [
   {
-    title: "Project Management",
-    tagline: "From groundbreaking to ribbon-cutting.",
-    description:
-      "We serve as the central coordinator for your project — managing architects, contractors, consultants, and vendors to deliver on schedule and within budget. Our team embeds directly with your development to provide daily oversight and proactive problem-solving.",
-    deliverables: [
-      "Master schedule development and tracking",
-      "Contractor scope coordination",
-      "RFI and submittal management",
-      "Weekly owner reporting",
-      "Budget tracking and change order review",
-      "Punch list and project closeout",
-    ],
-  },
-  {
     title: "Owner's Representation",
-    tagline: "Your interests. Fully protected.",
+    tagline: "Someone in your corner who doesn't build the project.",
     description:
-      "When you need an expert in your corner, BirchBuild steps in as your owner's representative. We speak the language of contractors, architects, and municipalities — and we use it to protect your timeline, your capital, and your vision.",
+      "Most developers don't have an in-house construction director. BirchBuild fills that role — acting as your expert proxy across every meeting, decision, and dispute from design through closeout. We have no financial stake in the construction contract, which means our only obligation is to you: your budget, your schedule, and your outcome.",
     deliverables: [
       "Contractor and design team selection",
-      "Contract negotiation support",
+      "Contract review and negotiation support",
+      "Change order review and approval on your behalf",
+      "Pay application verification before funds are released",
       "Independent cost review and value engineering",
-      "Progress monitoring and site visits",
-      "Risk identification and mitigation",
-      "Stakeholder communication management",
+      "Progress monitoring with documented site visits",
+      "Stakeholder communication and reporting",
     ],
   },
   {
-    title: "Pre-Construction Planning",
-    tagline: "The decisions you make before you build determine the outcome.",
+    title: "Construction Project Management",
+    tagline: "Boots on the ground. Hands on the schedule.",
     description:
-      "The most valuable work happens before construction starts. Our pre-construction services set up projects for success through disciplined planning, accurate budgeting, and smart contractor selection.",
+      "We embed directly in your project and manage the day-to-day execution — coordinating the general contractor, subcontractors, architects, engineers, and inspectors. When a problem surfaces, we're already on site and already solving it. When a GC pushes a change order that doesn't hold up, we push back.",
     deliverables: [
-      "Conceptual and detailed budgeting",
+      "Master schedule development and weekly tracking",
+      "GC and subcontractor coordination",
+      "RFI and submittal management",
+      "Quality control inspections at key milestones",
+      "Change order review and negotiation",
+      "Owner reporting — budget vs. actual, schedule variance",
+      "Punch list management and project closeout",
+    ],
+  },
+  {
+    title: "Preconstruction & Budget Development",
+    tagline: "Where most projects are won or lost.",
+    description:
+      "The cheapest change you'll ever make is on paper. Before a permit is filed or a GC is hired, we work with your design team to build a realistic budget, identify scope gaps, and stress-test the schedule. We run a competitive bid process, pre-qualify contractors, and make sure the team you hire is the right team for your specific project in your specific neighborhood.",
+    deliverables: [
+      "Conceptual and detailed construction budgeting",
       "Project schedule development",
-      "Design review for constructability",
-      "Contractor prequalification and bidding",
-      "Permit and entitlement coordination",
-      "Phasing and logistics planning",
+      "Design review for constructability and code compliance",
+      "Competitive bid solicitation and leveling",
+      "Contractor prequalification and reference checks",
+      "Phasing and site logistics planning",
+      "Risk identification and contingency analysis",
     ],
   },
   {
-    title: "Tenant Improvements",
-    tagline: "Fast-track buildouts that keep tenants happy and leases signed.",
+    title: "Chicago Permitting & Entitlements",
+    tagline: "Local knowledge that keeps projects moving.",
     description:
-      "Commercial tenant improvement projects require speed, coordination, and deep knowledge of landlord-tenant dynamics. We manage TI projects with the urgency and precision that retail, office, and medical tenants demand.",
+      "Chicago's Department of Buildings averages 70-day permit review cycles — and an incomplete submission resets the clock. Mixed-use and residential projects often require multi-departmental sign-off across zoning, fire, and accessibility review. We know what each department flags, how to prepare a clean submission, and when to bring in a permit expediter. This is one of the highest-leverage places a project manager earns their fee.",
     deliverables: [
-      "Tenant coordination and communication",
-      "TI allowance budget management",
-      "Contractor procurement and supervision",
-      "Permit expediting",
-      "Certificate of occupancy management",
-      "Delivery milestone tracking",
+      "Permit strategy and sequencing",
+      "E-Plan submission preparation and coordination",
+      "Multi-department review management (DOB, Zoning, Fire, Accessibility)",
+      "Permit expediter coordination",
+      "Zoning analysis and variance support",
+      "Inspection scheduling and sign-off management",
+      "Certificate of occupancy procurement",
     ],
   },
   {
-    title: "Construction Audit & Risk Review",
-    tagline: "Know exactly where your project stands.",
+    title: "GC Procurement & Oversight",
+    tagline: "Hire the right contractor. Then hold them to it.",
     description:
-      "Brought in mid-project or before closing on an acquisition? We assess construction quality, schedule risk, and budget exposure — and give you a clear picture of what you're inheriting.",
+      "Hiring the wrong general contractor on a $1.5M gut rehab or new construction project can mean six-figure losses and a project that never recovers its schedule. We run a structured procurement process that ensures you're comparing apples to apples, that the contract protects you, and that your GC's accountability is built in from day one — not negotiated after problems arise.",
     deliverables: [
-      "Independent project status assessment",
-      "Schedule and budget variance analysis",
-      "Contractor performance evaluation",
-      "Deficiency identification and documentation",
-      "Recovery plan development",
-      "Lender reporting support",
+      "Scope of work development for bidding",
+      "Bid package preparation and distribution",
+      "Bid leveling and contractor interviews",
+      "GC contract review — scope, schedule, payment terms, retainage",
+      "Subcontractor qualification review",
+      "Ongoing performance monitoring against contract requirements",
+      "Default and dispute documentation if needed",
+    ],
+  },
+  {
+    title: "Residential & Mixed-Use Development",
+    tagline: "New construction, gut rehab, condo conversion — we know the work.",
+    description:
+      "BirchBuild's project history runs deep in Chicago's West Side neighborhoods — Wicker Park, Ukrainian Village, Noble Square, Bucktown, and East Village. Gut rehabs, new construction single-family and multi-unit, ground-floor commercial with residential above, condo conversions. We know how these projects are permitted, how they're built, which subcontractors deliver, and what inspectors look for in each ward.",
+    deliverables: [
+      "Gut rehab and full renovation management",
+      "New construction — single-family and multi-unit",
+      "Mixed-use development (commercial + residential)",
+      "Condo conversion and unit buildout coordination",
+      "Landmark and historic district compliance",
+      "Neighborhood zoning and FAR analysis",
+      "Lender draw request preparation and reporting",
     ],
   },
 ];
@@ -92,8 +112,9 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            We offer a complete suite of construction management services tailored to
-            commercial real estate developers, owners, and investors.
+            We act as your construction department — managing the people, budget, schedule,
+            and paperwork so your project gets built right. No financial stake in the
+            construction contract. Just accountability to you.
           </p>
         </div>
       </section>
@@ -135,19 +156,57 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Who we work with */}
+      <section className="bg-[#EEF4FB] py-16">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-white border border-[#B5CCE5] rounded-xl p-6">
+              <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
+                Real Estate Developers
+              </div>
+              <p className="text-sm text-[#1C3050] leading-relaxed">
+                You know how to find and capitalize deals. We know how to get them built on time
+                and on budget without you managing a GC every day.
+              </p>
+            </div>
+            <div className="bg-white border border-[#B5CCE5] rounded-xl p-6">
+              <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
+                Private Investors
+              </div>
+              <p className="text-sm text-[#1C3050] leading-relaxed">
+                You&apos;re putting capital into a Chicago property. We protect that investment
+                with independent oversight, lender reporting, and a clear picture of where
+                the project stands at every milestone.
+              </p>
+            </div>
+            <div className="bg-white border border-[#B5CCE5] rounded-xl p-6">
+              <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
+                Owner-Builders
+              </div>
+              <p className="text-sm text-[#1C3050] leading-relaxed">
+                You want to manage your own project but need an experienced construction
+                professional to structure the process, vet contractors, and flag problems
+                before they become expensive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-[#0B2A4A] py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-4">
             Not sure which service fits your project?
           </h2>
           <p className="text-[#7BB5D8] mb-8">
-            We&apos;ll help you figure it out. Reach out for a no-pressure conversation.
+            Most of our clients start with a conversation. Tell us what you&apos;re building
+            and where you are in the process — we&apos;ll tell you where we can add the most value.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-[#2980B9] text-white px-8 py-4 rounded font-medium hover:bg-[#1565A0] transition-colors"
           >
-            Talk to Our Team
+            Talk to BirchBuild
           </Link>
         </div>
       </section>
