@@ -46,22 +46,22 @@ const featuredProjects = [
     img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg",
   },
   {
-    name: "1849 W. Armitage Ave",
+    name: "814-20 N. Wood St",
     type: "Residential",
-    location: "Bucktown, Chicago",
+    location: "East Village, Chicago",
     status: "Completed",
     description:
-      "Boutique commercial and residential buildout on the Armitage retail strip. Custom millwork, high-end finishes, and tight urban site logistics.",
-    img: "https://pi.movoto.com/p/461/12276996_0_jzAIqn_p.webp",
+      "Multi-unit residential development spanning 814–820 N. Wood. A large-footprint project with multiple units delivered on a tight urban site.",
+    img: "https://resources.atproperties.com/images/MRED/11/749/131/64270e98aea39/1.jpg",
   },
   {
-    name: "1350 N. Campbell Ave",
+    name: "756 N. Leavitt St",
     type: "Residential",
-    location: "Wicker Park, Chicago",
+    location: "Ukrainian Village, Chicago",
     status: "Completed",
     description:
-      "New construction residential in Wicker Park. Full structural build with modern facade, open floor plans, and rooftop deck.",
-    img: "https://img.urbanre.com/propertyimage/500x375/MRD11369958/6378530604/1350-N-Campbell-Unit-2-Chicago-IL-60622-0.jpg",
+      "Residential project in Ukrainian Village. Full-scale construction delivering modern living in one of Chicago's most desirable neighborhoods.",
+    img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg",
   },
 ];
 
