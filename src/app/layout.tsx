@@ -16,13 +16,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "BirchBuild | Commercial Real Estate Construction Management",
+  title: "BirchBuild | Chicago Development & Construction Management",
   description:
-    "BirchBuild delivers expert commercial real estate construction management — on time, on budget, built to last.",
+    "BirchBuild develops residential and mixed-use projects across Chicago's near-northwest side, and provides construction management for owners and investors.",
   openGraph: {
-    title: "BirchBuild | Commercial Real Estate Construction Management",
+    title: "BirchBuild | Chicago Development & Construction Management",
     description:
-      "Expert construction project management for commercial real estate.",
+      "Residential and mixed-use development plus construction management across Chicago.",
     url: "https://birchbuild.org",
     siteName: "BirchBuild",
     type: "website",

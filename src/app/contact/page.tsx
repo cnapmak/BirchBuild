@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact | BirchBuild",
   description:
-    "Get in touch with BirchBuild to discuss your commercial construction project.",
+    "Get in touch with BirchBuild to discuss your development or construction management project in Chicago.",
 };
 
 export default function ContactPage() {
@@ -86,12 +86,11 @@ export default function ContactPage() {
                   className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors"
                 >
                   <option value="">Select a project type</option>
-                  <option>Office</option>
-                  <option>Industrial / Logistics</option>
-                  <option>Retail / Mixed-Use</option>
-                  <option>Medical Office</option>
-                  <option>Multifamily</option>
-                  <option>Tenant Improvements</option>
+                  <option>New Construction — Multi-Unit</option>
+                  <option>New Construction — Single Family</option>
+                  <option>Mixed-Use (Commercial + Residential)</option>
+                  <option>Gut Rehab / Renovation</option>
+                  <option>Construction Management</option>
                   <option>Other</option>
                 </select>
               </div>
@@ -147,7 +146,7 @@ export default function ContactPage() {
               <ul className="space-y-3">
                 {[
                   "Initial call to understand your project and goals",
-                  "Scope of services proposal tailored to your needs",
+                  "A clear outline of how we can help",
                   "Clear, fixed-fee or milestone-based engagement structure",
                   "Dedicated point of contact from day one",
                 ].map((item) => (

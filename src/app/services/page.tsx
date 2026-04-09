@@ -4,36 +4,37 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services | BirchBuild",
   description:
-    "Construction project management and owner's representation for Chicago developers and investors — from preconstruction through certificate of occupancy.",
+    "Chicago residential and mixed-use development, plus construction management for developers and investors — from preconstruction through certificate of occupancy.",
 };
 
 const services = [
   {
-    title: "Owner's Representation",
-    tagline: "Someone in your corner who doesn't build the project.",
+    title: "Residential & Mixed-Use Development",
+    tagline: "New construction, gut rehab, condo conversion — we know the work.",
     description:
-      "Most developers don't have an in-house construction director. BirchBuild fills that role — acting as your expert proxy across every meeting, decision, and dispute from design through closeout. We have no financial stake in the construction contract, which means our only obligation is to you: your budget, your schedule, and your outcome.",
+      "BirchBuild's portfolio of 35+ completed buildings runs deep in Chicago's near-northwest neighborhoods — Noble Square, Ukrainian Village, Wicker Park, Bucktown, and East Village. Multi-unit new construction, mixed-use with ground-floor commercial, gut rehabs, and condo conversions. We know how these projects are permitted, how they're built, which subcontractors deliver, and what inspectors look for in each ward.",
     deliverables: [
-      "Contractor and design team selection",
-      "Contract review and negotiation support",
-      "Change order review and approval on your behalf",
-      "Pay application verification before funds are released",
-      "Independent cost review and value engineering",
-      "Progress monitoring with documented site visits",
-      "Stakeholder communication and reporting",
+      "New construction — single-family and multi-unit",
+      "Mixed-use development (commercial + residential)",
+      "Gut rehab and full renovation management",
+      "Condo conversion and unit buildout coordination",
+      "Landmark and historic district compliance",
+      "Neighborhood zoning and FAR analysis",
+      "Lender draw request preparation and reporting",
     ],
   },
   {
-    title: "Construction Project Management",
-    tagline: "Boots on the ground. Hands on the schedule.",
+    title: "Construction Management",
+    tagline: "Development experience applied to your project.",
     description:
-      "We embed directly in your project and manage the day-to-day execution — coordinating the general contractor, subcontractors, architects, engineers, and inspectors. When a problem surfaces, we're already on site and already solving it. When a GC pushes a change order that doesn't hold up, we push back.",
+      "For owners and investors who need experienced oversight on their builds, we provide full construction management — from contractor selection through closeout. We coordinate GCs, subcontractors, architects, and inspectors, review every change order, verify pay applications, and track schedule and budget so you have a clear picture at every stage. Having built 35+ projects ourselves, we bring a developer's perspective to every decision.",
     deliverables: [
+      "Contractor and design team selection",
       "Master schedule development and weekly tracking",
       "GC and subcontractor coordination",
-      "RFI and submittal management",
-      "Quality control inspections at key milestones",
       "Change order review and negotiation",
+      "Pay application verification before funds are released",
+      "Quality control inspections at key milestones",
       "Owner reporting — budget vs. actual, schedule variance",
       "Punch list management and project closeout",
     ],
@@ -57,7 +58,7 @@ const services = [
     title: "Chicago Permitting & Entitlements",
     tagline: "Local knowledge that keeps projects moving.",
     description:
-      "Chicago's Department of Buildings averages 70-day permit review cycles — and an incomplete submission resets the clock. Mixed-use and residential projects often require multi-departmental sign-off across zoning, fire, and accessibility review. We know what each department flags, how to prepare a clean submission, and when to bring in a permit expediter. This is one of the highest-leverage places a project manager earns their fee.",
+      "Chicago's Department of Buildings averages 70-day permit review cycles — and an incomplete submission resets the clock. Mixed-use and residential projects often require multi-departmental sign-off across zoning, fire, and accessibility review. We know what each department flags, how to prepare a clean submission, and when to bring in a permit expediter.",
     deliverables: [
       "Permit strategy and sequencing",
       "E-Plan submission preparation and coordination",
@@ -72,7 +73,7 @@ const services = [
     title: "GC Procurement & Oversight",
     tagline: "Hire the right contractor. Then hold them to it.",
     description:
-      "Hiring the wrong general contractor on a $1.5M gut rehab or new construction project can mean six-figure losses and a project that never recovers its schedule. We run a structured procurement process that ensures you're comparing apples to apples, that the contract protects you, and that your GC's accountability is built in from day one — not negotiated after problems arise.",
+      "Hiring the wrong general contractor on a $1.5M gut rehab or new construction project can mean six-figure losses and a schedule that never recovers. We run a structured procurement process that ensures you're comparing apples to apples, that the contract protects you, and that your GC's accountability is built in from day one.",
     deliverables: [
       "Scope of work development for bidding",
       "Bid package preparation and distribution",
@@ -81,21 +82,6 @@ const services = [
       "Subcontractor qualification review",
       "Ongoing performance monitoring against contract requirements",
       "Default and dispute documentation if needed",
-    ],
-  },
-  {
-    title: "Residential & Mixed-Use Development",
-    tagline: "New construction, gut rehab, condo conversion — we know the work.",
-    description:
-      "BirchBuild's project history runs deep in Chicago's West Side neighborhoods — Wicker Park, Ukrainian Village, Noble Square, Bucktown, and East Village. Gut rehabs, new construction single-family and multi-unit, ground-floor commercial with residential above, condo conversions. We know how these projects are permitted, how they're built, which subcontractors deliver, and what inspectors look for in each ward.",
-    deliverables: [
-      "Gut rehab and full renovation management",
-      "New construction — single-family and multi-unit",
-      "Mixed-use development (commercial + residential)",
-      "Condo conversion and unit buildout coordination",
-      "Landmark and historic district compliance",
-      "Neighborhood zoning and FAR analysis",
-      "Lender draw request preparation and reporting",
     ],
   },
 ];
@@ -112,9 +98,10 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            We act as your construction department — managing the people, budget, schedule,
-            and paperwork so your project gets built right. No financial stake in the
-            construction contract. Just accountability to you.
+            We develop our own residential and mixed-use buildings across Chicago&apos;s
+            near-northwest side, and we provide construction management for owners and
+            investors building in the same neighborhoods. Same team, same standards,
+            same ground-level knowledge.
           </p>
         </div>
       </section>
@@ -165,8 +152,8 @@ export default function ServicesPage() {
                 Real Estate Developers
               </div>
               <p className="text-sm text-[#1C3050] leading-relaxed">
-                You know how to find and capitalize deals. We know how to get them built on time
-                and on budget without you managing a GC every day.
+                You know how to find and capitalize deals. We know how to get them built
+                without you managing a GC every day.
               </p>
             </div>
             <div className="bg-white border border-[#B5CCE5] rounded-xl p-6">

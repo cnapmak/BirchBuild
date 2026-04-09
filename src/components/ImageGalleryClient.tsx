@@ -8,10 +8,12 @@ export default function ImageGalleryClient({
   baseUrl,
   address,
   maxPhotos,
+  extraImages,
 }: {
   baseUrl: string;
   address: string;
   maxPhotos?: number;
+  extraImages?: string[];
 }) {
-  return <ImageGallery baseUrl={baseUrl} address={address} maxPhotos={maxPhotos} />;
+  return <ImageGallery baseUrl={baseUrl} address={address} maxPhotos={maxPhotos} extraImages={extraImages} />;
 }

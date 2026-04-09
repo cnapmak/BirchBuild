@@ -12,6 +12,7 @@ export interface Property {
   slug: string;
   img?: string;
   description?: string;
+  extraImages?: string[];
 }
 
 export default function ExpandablePropertyGrid({ properties }: { properties: Property[] }) {

@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About | BirchBuild",
   description:
-    "BirchBuild is a Chicago construction project management firm with 35+ completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
+    "BirchBuild is a Chicago development and construction management firm with 35+ completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
 };
 
 const values = [
   {
-    title: "Owner-First Alignment",
+    title: "Aligned Incentives",
     description:
-      "We have no financial stake in the construction contract. No markup on materials. No side arrangement with the GC. Our fee is fixed, and our loyalty runs entirely to you.",
+      "Whether we're developing a project or managing one for a client, we're accountable for the outcome. On CM engagements, our fee is fixed — we don't mark up materials or take a cut from the GC.",
   },
   {
     title: "Transparency",
@@ -53,9 +53,9 @@ export default function AboutPage() {
             About BirchBuild
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            A construction project management firm built on one premise: the person
-            writing the checks should have someone in their corner who isn&apos;t
-            also building the project.
+            A Chicago development and construction management firm with 35+
+            completed projects across Wicker Park, Ukrainian Village, Noble Square,
+            and Bucktown.
           </p>
         </div>
       </section>
@@ -72,12 +72,13 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-sm text-[#1C3050] leading-relaxed">
               <p>
-                BirchBuild manages construction projects for real estate developers
-                and investors across Chicago&apos;s West Side and North Side neighborhoods.
-                The work spans residential new construction, gut rehab, mixed-use
-                development, and commercial buildout — all within a concentrated
-                cluster of neighborhoods where we have deep, project-by-project
-                experience.
+                BirchBuild develops and builds residential and mixed-use projects
+                across Chicago&apos;s West Side and North Side neighborhoods. We also
+                provide construction management for other developers and investors
+                who need experienced oversight on their own projects. The work spans
+                new construction, gut rehab, mixed-use development, and condo
+                conversion — all within a concentrated cluster of neighborhoods
+                where we have deep, project-by-project experience.
               </p>
               <p>
                 That concentration is deliberate. Knowing a neighborhood means knowing
@@ -87,10 +88,11 @@ export default function AboutPage() {
                 It&apos;s built one project at a time.
               </p>
               <p>
-                We act as construction managers and owner&apos;s representatives — sitting
-                on your side of the table, not the contractor&apos;s. We manage the
-                people, the process, the budget, and the paperwork so you don&apos;t have
-                to become a construction expert to protect your investment.
+                Having developed 35+ buildings ourselves gives us a perspective that
+                pure consulting firms don&apos;t have. We&apos;ve dealt with the same
+                budget pressures, permitting delays, and subcontractor issues that
+                our clients face — which is why we can manage their projects with
+                the same rigor we apply to our own.
               </p>
             </div>
           </div>
@@ -99,9 +101,9 @@ export default function AboutPage() {
           <div className="space-y-5">
             {[
               { n: "35+", label: "Completed projects across Chicago" },
-              { n: "$50M+", label: "Construction value managed" },
+              { n: "$50M+", label: "Construction value" },
               { n: "8", label: "Chicago neighborhoods with completed projects" },
-              { n: "98%", label: "On-time or early delivery rate" },
+              { n: "20+", label: "Years of experience" },
             ].map((s) => (
               <div
                 key={s.label}
@@ -133,11 +135,11 @@ export default function AboutPage() {
               {/* Placeholder — fill in Eugene's actual background */}
               <div className="space-y-4 text-sm text-[#1C3050] leading-relaxed">
                 <p>
-                  Eugene founded BirchBuild to bring structured, owner-aligned project
-                  management to Chicago&apos;s residential and mixed-use development market.
-                  His approach is rooted in the reality that most developers working
-                  on $500K–$5M projects don&apos;t have an in-house construction director —
-                  and that gap is where projects go sideways.
+                  Eugene founded BirchBuild after years of developing residential
+                  and mixed-use buildings across Chicago&apos;s near-northwest side.
+                  That hands-on development experience — navigating permitting, managing
+                  GCs, solving problems on site — is the foundation of everything
+                  BirchBuild does, whether on its own projects or for clients.
                 </p>
                 <p>
                   Every BirchBuild project is managed with principal involvement. Not

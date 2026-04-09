@@ -7,6 +7,7 @@ interface Props {
   baseUrl: string;
   address: string;
   maxPhotos?: number;
+  extraImages?: string[];
 }
 
 /** Derives the URL for photo index N given a base URL (photo 1). */
@@ -29,7 +30,7 @@ function getNthPhotoUrl(baseUrl: string, n: number): string {
   return "";
 }
 
-export default function ImageGallery({ baseUrl, address, maxPhotos = 12 }: Props) {
+export default function ImageGallery({ baseUrl, address, maxPhotos = 12, extraImages }: Props) {
   const [photos, setPhotos] = useState<string[]>([baseUrl]);
   const [lightbox, setLightbox] = useState<number | null>(null);
 
@@ -45,7 +46,12 @@ export default function ImageGallery({ baseUrl, address, maxPhotos = 12 }: Props
     const verified: string[] = [];
     let pending = candidates.length;
 
-    if (pending === 0) return;
+    if (pending === 0) {
+      if (extraImages?.length) {
+        setPhotos([baseUrl, ...extraImages]);
+      }
+      return;
+    }
 
     candidates.forEach((url, idx) => {
       const img = new window.Image();
@@ -54,14 +60,16 @@ export default function ImageGallery({ baseUrl, address, maxPhotos = 12 }: Props
         verified[idx] = url;
         pending--;
         if (pending === 0) {
-          setPhotos([baseUrl, ...verified.filter(Boolean)]);
+          const extra = extraImages ?? [];
+          setPhotos([baseUrl, ...verified.filter(Boolean), ...extra]);
         }
       };
       img.onerror = () => {
         if (!active) return;
         pending--;
         if (pending === 0) {
-          setPhotos([baseUrl, ...verified.filter(Boolean)]);
+          const extra = extraImages ?? [];
+          setPhotos([baseUrl, ...verified.filter(Boolean), ...extra]);
         }
       };
       img.src = url;
@@ -70,7 +78,7 @@ export default function ImageGallery({ baseUrl, address, maxPhotos = 12 }: Props
     return () => {
       active = false;
     };
-  }, [baseUrl, maxPhotos]);
+  }, [baseUrl, maxPhotos, extraImages]);
 
   return (
     <>

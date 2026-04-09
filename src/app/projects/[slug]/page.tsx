@@ -81,7 +81,7 @@ export default async function PropertyPage({ params }: Props) {
               </h2>
               <p className="text-[#1C3050] leading-relaxed mb-10">
                 {p.description ??
-                  `Construction and renovation project completed by BirchBuild in ${p.neighborhood}, one of Chicago's most sought-after neighborhoods. BirchBuild managed the full project lifecycle from permitting through completion, delivering on time and on budget.`}
+                  `${p.type} project in ${p.neighborhood}, one of Chicago's most sought-after neighborhoods.`}
               </p>
 
               {p.img && (
@@ -89,7 +89,7 @@ export default async function PropertyPage({ params }: Props) {
                   <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold text-[#0B2A4A] mb-5">
                     Photo Gallery
                   </h2>
-                  <ImageGalleryClient baseUrl={p.img} address={p.address} maxPhotos={15} />
+                  <ImageGalleryClient baseUrl={p.img} address={p.address} maxPhotos={15} extraImages={p.extraImages} />
                 </>
               )}
             </div>

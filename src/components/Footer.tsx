@@ -9,8 +9,8 @@ export default function Footer() {
             BirchBuild
           </div>
           <p className="text-sm text-[#7BB5D8] leading-relaxed max-w-xs">
-            Commercial real estate construction management. Built with precision,
-            delivered with integrity.
+            Chicago residential and mixed-use development. Construction management
+            across the near-northwest side.
           </p>
         </div>
 

@@ -3,22 +3,22 @@ import Image from "next/image";
 
 const stats = [
   { value: "35+", label: "Projects Completed" },
-  { value: "$50M+", label: "Construction Value Managed" },
-  { value: "98%", label: "On-Time Delivery" },
+  { value: "$50M+", label: "Construction Value" },
+  { value: "8", label: "Chicago Neighborhoods" },
   { value: "20+", label: "Years Experience" },
 ];
 
 const services = [
   {
-    title: "Owner's Representation",
+    title: "Residential & Mixed-Use Development",
     description:
-      "We represent you — not the GC, not the architect. No financial stake in the construction contract means our only job is protecting your budget, timeline, and vision.",
+      "We develop our own multi-unit residential and mixed-use projects across Chicago's near-northwest side — from site acquisition through construction and delivery. Our portfolio includes 35+ completed buildings in Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods.",
     icon: "◉",
   },
   {
-    title: "Construction Project Management",
+    title: "Construction Management",
     description:
-      "Daily oversight of general contractors, subcontractors, and design teams. We review every change order, track the master schedule, and flag problems before they compound.",
+      "For owners and investors building their own projects, we provide hands-on construction management — coordinating GCs, subcontractors, and design teams, reviewing every change order, and tracking the schedule so problems get solved before they compound.",
     icon: "◈",
   },
   {
@@ -42,7 +42,7 @@ const featuredProjects = [
     location: "Ukrainian Village, Chicago",
     status: "Completed",
     description:
-      "Multi-unit mixed-use development anchoring the Chicago Avenue corridor. Ground-floor commercial with residential units above.",
+      "Mixed-use development spanning 2702-2712 W. Chicago Ave with approximately 15 residential units and ground-floor commercial space. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
     img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg",
   },
   {
@@ -51,7 +51,7 @@ const featuredProjects = [
     location: "East Village, Chicago",
     status: "Completed",
     description:
-      "Multi-unit residential development spanning 814–820 N. Wood. A large-footprint project with multiple units delivered on a tight urban site.",
+      "Multi-unit development on an oversized corner lot in East Village, built in 2012. Duplex-down units with private roof decks, quartz countertops, and spa-style primary baths with heated floors.",
     img: "https://resources.atproperties.com/images/MRED/11/749/131/64270e98aea39/1.jpg",
   },
   {
@@ -60,7 +60,7 @@ const featuredProjects = [
     location: "Ukrainian Village, Chicago",
     status: "Completed",
     description:
-      "Residential project in Ukrainian Village. Full-scale construction delivering modern living in one of Chicago's most desirable neighborhoods.",
+      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2013. Extra-wide layouts, hardwood floors, attached garage parking, and 500 sq ft private rooftop decks with skyline views.",
     img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg",
   },
 ];
@@ -87,17 +87,17 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 pb-20 pt-40 w-full grid md:grid-cols-2 gap-16 items-end">
           <div>
             <div className="text-xs font-semibold uppercase tracking-widest text-[#7BB5D8] mb-5">
-              Chicago Construction Management
+              Chicago Development & Construction Management
             </div>
             <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
-              Built to Last.
+              We Develop. We Build.
               <br />
-              <span className="text-[#5AAED6]">Delivered</span> on Time.
+              We <span className="text-[#5AAED6]">Manage</span>.
             </h1>
             <p className="text-lg text-[#B5CCE5] leading-relaxed mb-8 max-w-lg">
-              BirchBuild manages construction projects across Chicago&apos;s most
-              competitive neighborhoods — from groundbreaking to ribbon-cutting,
-              so your investment performs from day one.
+              BirchBuild develops residential and mixed-use projects across
+              Chicago&apos;s near-northwest side, and provides construction
+              management for owners and investors building in the same neighborhoods.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -142,7 +142,7 @@ export default function Home() {
               What We Do
             </div>
             <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-[#0B2A4A]">
-              We Build the Process.<br />Your GC Builds the Project.
+              Development &<br />Construction Management
             </h2>
           </div>
 
@@ -254,7 +254,7 @@ export default function Home() {
             href="/contact"
             className="inline-block bg-[#2980B9] text-white px-8 py-4 rounded font-medium hover:bg-[#1565A0] transition-colors"
           >
-            Get a Free Consultation
+            Get in Touch
           </Link>
         </div>
       </section>
