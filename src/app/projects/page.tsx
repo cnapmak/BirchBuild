@@ -366,17 +366,6 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* All properties — expandable grid */}
-      <section className="bg-[#EEF4FB] py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-2">
-            All Properties — Chicago, IL
-          </div>
-          <p className="text-xs text-[#1C3050] mb-8">Click any property to expand</p>
-          <ExpandablePropertyGrid properties={allProperties} />
-        </div>
-      </section>
-
       {/* Map */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-6">
@@ -393,6 +382,17 @@ export default function ProjectsPage() {
             </p>
           </div>
           <MapWrapper pins={allPins} properties={allProperties} />
+        </div>
+      </section>
+
+      {/* All properties — expandable grid */}
+      <section className="bg-[#EEF4FB] py-16">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-2">
+            All Properties — Chicago, IL
+          </div>
+          <p className="text-xs text-[#1C3050] mb-8">Click any property to expand</p>
+          <ExpandablePropertyGrid properties={allProperties} />
         </div>
       </section>
 
