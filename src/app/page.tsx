@@ -37,6 +37,24 @@ const services = [
 
 const featuredProjects = [
   {
+    name: "756 N. Leavitt St",
+    type: "Mixed-Use",
+    location: "Ukrainian Village, Chicago",
+    status: "Completed",
+    description:
+      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2013. Extra-wide layouts over 23 ft across, hardwood floors, attached garage parking, and 500 sq ft private rooftop decks with skyline views.",
+    img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg",
+  },
+  {
+    name: "1756 W. Wabansia",
+    type: "Residential",
+    location: "Wicker Park, Chicago",
+    status: "Completed",
+    description:
+      "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
+    img: "https://d229qcohg01jma.cloudfront.net/MRED/09/220/012/1.jpg",
+  },
+  {
     name: "2702-12 W. Chicago Ave",
     type: "Mixed-Use",
     location: "Ukrainian Village, Chicago",
@@ -44,24 +62,6 @@ const featuredProjects = [
     description:
       "Mixed-use development spanning 2702-2712 W. Chicago Ave with approximately 15 residential units and ground-floor commercial space. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
     img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg",
-  },
-  {
-    name: "814-20 N. Wood St",
-    type: "Residential",
-    location: "East Village, Chicago",
-    status: "Completed",
-    description:
-      "Multi-unit development on an oversized corner lot in East Village, built in 2012. Duplex-down units with private roof decks, quartz countertops, and spa-style primary baths with heated floors.",
-    img: "https://resources.atproperties.com/images/MRED/11/749/131/64270e98aea39/1.jpg",
-  },
-  {
-    name: "756 N. Leavitt St",
-    type: "Residential",
-    location: "Ukrainian Village, Chicago",
-    status: "Completed",
-    description:
-      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2013. Extra-wide layouts, hardwood floors, attached garage parking, and 500 sq ft private rooftop decks with skyline views.",
-    img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg",
   },
 ];
 
