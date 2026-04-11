@@ -123,10 +123,10 @@ export default function ContactPage() {
                 Email
               </div>
               <a
-                href="mailto:hello@birchbuild.org"
+                href="mailto:bereza77@gmail.com"
                 className="text-[#1A4F8A] hover:text-[#0B2A4A] font-medium transition-colors"
               >
-                hello@birchbuild.org
+                bereza77@gmail.com
               </a>
             </div>
 

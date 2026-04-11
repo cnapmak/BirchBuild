@@ -42,7 +42,7 @@ export default function Footer() {
             Contact
           </div>
           <ul className="space-y-2 text-sm text-[#7BB5D8]">
-            <li>hello@birchbuild.org</li>
+            <li>bereza77@gmail.com</li>
             <li>birchbuild.org</li>
           </ul>
         </div>
