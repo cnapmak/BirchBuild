@@ -90,9 +90,9 @@ export default function Home() {
               Chicago Development & Construction Management
             </div>
             <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
-              We Develop. We Build.
+              We Build, Rehab,
               <br />
-              We <span className="text-[#5AAED6]">Manage</span>.
+              Dreams Into <span className="text-[#5AAED6]">Reality</span>.
             </h1>
             <p className="text-lg text-[#B5CCE5] leading-relaxed mb-8 max-w-lg">
               BirchBuild develops residential and mixed-use projects across
