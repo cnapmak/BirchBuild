@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import MapWrapper from "@/components/MapWrapper";
 import type { MapPin } from "@/components/ProjectsMap";
 import ExpandablePropertyGrid from "@/components/ExpandablePropertyGrid";
 import type { Property } from "@/components/ExpandablePropertyGrid";
+import FeaturedProjectCards from "@/components/FeaturedProjectCards";
 
 export const metadata: Metadata = {
   title: "Projects | BirchBuild",
@@ -47,8 +47,7 @@ export const allProperties: Property[] = [
   // 2016
   {
     address: "1756 W. Wabansia", neighborhood: "Wicker Park", type: "Residential", slug: "1756-w-wabansia",
-    img: "https://d229qcohg01jma.cloudfront.net/MRED/09/220/012/1.jpg",
-    extraImages: ["/projects/1756-w-wabansia/1.jpg"],
+    img: "/projects/1756-w-wabansia/1.jpg",
     description: "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, a cedar garage deck, and specialty lighting throughout.",
   },
   {
@@ -285,7 +284,7 @@ const featuredProjects = [
     type: "Residential",
     slug: "1756-w-wabansia",
     address: "1756 W. Wabansia, Chicago, IL 60622",
-    img: "https://d229qcohg01jma.cloudfront.net/MRED/09/220/012/1.jpg",
+    img: "/projects/1756-w-wabansia/1.jpg",
     description:
       "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, a cedar garage deck, and specialty lighting throughout.",
     highlights: ["Custom single-family", "High-end finishes", "Wicker Park"],
@@ -327,58 +326,7 @@ export default function ProjectsPage() {
           <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-8">
             Featured Projects
           </div>
-          <div className="space-y-6">
-            {featuredProjects.map((p) => (
-              <div
-                key={p.name}
-                className="border border-[#B5CCE5] rounded-xl overflow-hidden grid md:grid-cols-[340px_1fr] hover:border-[#1A4F8A] hover:shadow-sm transition-all"
-              >
-                <div className="relative h-52 md:h-auto min-h-[200px]">
-                  <Image
-                    src={p.img}
-                    alt={p.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 340px"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                  <div className="absolute bottom-3 left-4">
-                    <span className="bg-[#1A4F8A]/80 backdrop-blur-sm text-white text-xs font-semibold uppercase tracking-widest px-2.5 py-1 rounded-full">
-                      {p.type}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-7">
-                  <div className="text-xs text-[#4A82B5] font-semibold uppercase tracking-widest mb-1">
-                    {p.neighborhood}
-                  </div>
-                  <h2 className="font-[family-name:var(--font-playfair)] text-xl font-semibold text-[#0B2A4A] mb-1">
-                    {p.name}
-                  </h2>
-                  <div className="text-xs text-[#2980B9] mb-3">{p.address}</div>
-                  <p className="text-sm text-[#1C3050] leading-relaxed mb-4">
-                    {p.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-5">
-                    {p.highlights.map((h) => (
-                      <span
-                        key={h}
-                        className="text-xs bg-[#EEF4FB] text-[#1C3050] border border-[#B5CCE5] px-3 py-1 rounded-full"
-                      >
-                        {h}
-                      </span>
-                    ))}
-                  </div>
-                  <Link
-                    href={`/projects/${p.slug}`}
-                    className="inline-flex items-center gap-1 text-sm font-medium text-[#1A4F8A] hover:text-[#0B2A4A] transition-colors"
-                  >
-                    View Details →
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
+          <FeaturedProjectCards projects={featuredProjects} />
         </div>
       </section>
 

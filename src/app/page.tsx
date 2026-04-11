@@ -41,6 +41,7 @@ const featuredProjects = [
     type: "Mixed-Use",
     location: "Ukrainian Village, Chicago",
     status: "Completed",
+    slug: "756-n-leavitt",
     description:
       "Boutique elevator building on a corner lot in Ukrainian Village, built in 2013. Extra-wide layouts over 23 ft across, hardwood floors, attached garage parking, and 500 sq ft private rooftop decks with skyline views.",
     img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg",
@@ -50,15 +51,17 @@ const featuredProjects = [
     type: "Residential",
     location: "Wicker Park, Chicago",
     status: "Completed",
+    slug: "1756-w-wabansia",
     description:
       "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
-    img: "https://d229qcohg01jma.cloudfront.net/MRED/09/220/012/1.jpg",
+    img: "/projects/1756-w-wabansia/1.jpg",
   },
   {
     name: "2702-12 W. Chicago Ave",
     type: "Mixed-Use",
     location: "Ukrainian Village, Chicago",
     status: "Completed",
+    slug: "2702-w-chicago",
     description:
       "Mixed-use development spanning 2702-2712 W. Chicago Ave with approximately 15 residential units and ground-floor commercial space. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
     img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg",
@@ -219,10 +222,16 @@ export default function Home() {
                       {p.description}
                     </p>
                   </div>
-                  <div className="mt-4">
+                  <div className="mt-4 flex items-center gap-4">
                     <span className="text-xs font-medium text-[#1A4F8A] uppercase tracking-widest">
                       {p.status}
                     </span>
+                    <Link
+                      href={`/projects/${p.slug}`}
+                      className="inline-flex items-center gap-1 text-sm font-medium text-[#1A4F8A] hover:text-[#0B2A4A] transition-colors"
+                    >
+                      View Full Details →
+                    </Link>
                   </div>
                 </div>
               </div>
