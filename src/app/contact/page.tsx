@@ -18,7 +18,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-lg text-[#1C3050] max-w-xl leading-relaxed">
-            Tell us about your project. We&apos;ll respond within one business day.
+            Tell us about your project.
           </p>
         </div>
       </section>
@@ -27,7 +27,10 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-[1.2fr_1fr] gap-16">
           {/* Form */}
           <div>
-            <form className="space-y-6">
+            <form action="https://formsubmit.co/bereza77@gmail.com" method="POST" className="space-y-6">
+              <input type="hidden" name="_subject" value="New BirchBuild Inquiry" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
@@ -128,15 +131,6 @@ export default function ContactPage() {
               >
                 bereza77@gmail.com
               </a>
-            </div>
-
-            <div>
-              <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
-                Response Time
-              </div>
-              <p className="text-sm text-[#1C3050]">
-                We respond to all inquiries within one business day.
-              </p>
             </div>
 
             <div className="border-t border-[#DDE9F7] pt-8">
