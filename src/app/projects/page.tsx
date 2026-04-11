@@ -16,6 +16,20 @@ export const metadata: Metadata = {
 export const allProperties: Property[] = [
   // 2020
   {
+    address: "1305 W. Chicago", neighborhood: "Noble Square", type: "Mixed-Use", slug: "1305-w-chicago",
+    img: "/projects/1305-w-chicago/facade.jpg",
+    extraImages: [
+      "/projects/1305-w-chicago/facade-wide.jpg",
+      "/projects/1305-w-chicago/kitchen-living.jpg",
+      "/projects/1305-w-chicago/living-room.jpg",
+      "/projects/1305-w-chicago/master-bedroom.jpg",
+      "/projects/1305-w-chicago/bathroom.jpg",
+      "/projects/1305-w-chicago/second-bedroom.jpg",
+      "/projects/1305-w-chicago/rooftop-deck.jpg",
+    ],
+    description: "Six-unit boutique elevator building spanning 1305-1311 W. Chicago Avenue in Noble Square, completed in 2020. Units feature three bedrooms and two baths across 1,660 sq ft with dark oak hardwood floors, custom Italian cabinetry, quartz countertops, and a shared rooftop deck with Chicago skyline views.",
+  },
+  {
     address: "1314 N. Greenview", neighborhood: "Old Town", type: "Residential", slug: "1314-n-greenview",
     img: "https://resources.atproperties.com/images/MRED/11/266/642/618ade91cf478/1.jpg",
     extraImages: ["/projects/1314-n-greenview/1.png"],
@@ -220,12 +234,6 @@ export const allProperties: Property[] = [
     address: "1468 N. Ashland", neighborhood: "Wicker Park", type: "Mixed-Use", slug: "1468-n-ashland",
     img: "https://resources.atproperties.com/images/MRED/11/195/395/6148ced3a6578/1.jpg",
     description: "Mixed-use boutique building on Ashland Avenue in Wicker Park. The original 1875 structure was redeveloped into an upscale building with ground-floor commercial and retail space and residential units above.",
-  },
-  {
-    address: "1305 W. Chicago", neighborhood: "Noble Square", type: "Residential", slug: "1305-w-chicago",
-    img: "https://resources.atproperties.com/images/MRED/10/587/148/5de96df38c366/1.jpg",
-    extraImages: ["/projects/1305-w-chicago/1.jpg"],
-    description: "Multi-unit elevator building on Chicago Avenue in Noble Square. The building spans multiple addresses and offers three-bedroom residences with modern finishes in a walkable location near the intersection of Chicago and Ashland avenues.",
   },
   {
     address: "1350 N. Campbell", neighborhood: "Wicker Park", type: "Residential", slug: "1350-n-campbell",
