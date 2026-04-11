@@ -54,7 +54,7 @@ const featuredProjects = [
     slug: "1756-w-wabansia",
     description:
       "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
-    img: "/projects/1756-w-wabansia/1.jpg",
+    img: "/projects/1756-w-wabansia/facade.jpg",
   },
   {
     name: "2702-12 W. Chicago Ave",

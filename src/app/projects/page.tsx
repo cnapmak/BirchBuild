@@ -47,7 +47,16 @@ export const allProperties: Property[] = [
   // 2016
   {
     address: "1756 W. Wabansia", neighborhood: "Wicker Park", type: "Residential", slug: "1756-w-wabansia",
-    img: "/projects/1756-w-wabansia/1.jpg",
+    img: "/projects/1756-w-wabansia/facade.jpg",
+    extraImages: [
+      "/projects/1756-w-wabansia/exterior-summer.jpg",
+      "/projects/1756-w-wabansia/living-room.jpg",
+      "/projects/1756-w-wabansia/kitchen.jpg",
+      "/projects/1756-w-wabansia/bedroom.jpg",
+      "/projects/1756-w-wabansia/bathroom.jpg",
+      "/projects/1756-w-wabansia/lower-level.jpg",
+      "/projects/1756-w-wabansia/basement.jpg",
+    ],
     description: "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, a cedar garage deck, and specialty lighting throughout.",
   },
   {
@@ -284,7 +293,7 @@ const featuredProjects = [
     type: "Residential",
     slug: "1756-w-wabansia",
     address: "1756 W. Wabansia, Chicago, IL 60622",
-    img: "/projects/1756-w-wabansia/1.jpg",
+    img: "/projects/1756-w-wabansia/facade.jpg",
     description:
       "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, a cedar garage deck, and specialty lighting throughout.",
     highlights: ["Custom single-family", "High-end finishes", "Wicker Park"],
