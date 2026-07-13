@@ -29,6 +29,7 @@ export default function ContactPage() {
           <div>
             <form action="https://formsubmit.co/bereza77@gmail.com" method="POST" className="space-y-6">
               <input type="hidden" name="_subject" value="New BirchBuild Inquiry" />
+              <input type="hidden" name="_next" value="https://www.birchbuild.org/thank-you" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
               <div className="grid sm:grid-cols-2 gap-5">
@@ -130,6 +131,18 @@ export default function ContactPage() {
                 className="text-[#1A4F8A] hover:text-[#0B2A4A] font-medium transition-colors"
               >
                 bereza77@gmail.com
+              </a>
+            </div>
+
+            <div className="border-t border-[#DDE9F7] pt-8">
+              <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
+                Phone
+              </div>
+              <a
+                href="tel:+17736159069"
+                className="text-[#1A4F8A] hover:text-[#0B2A4A] font-medium transition-colors"
+              >
+                (773) 615-9069
               </a>
             </div>
 

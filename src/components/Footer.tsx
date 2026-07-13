@@ -42,6 +42,11 @@ export default function Footer() {
             Contact
           </div>
           <ul className="space-y-2 text-sm text-[#7BB5D8]">
+            <li>
+              <a href="tel:+17736159069" className="hover:text-white transition-colors">
+                (773) 615-9069
+              </a>
+            </li>
             <li>bereza77@gmail.com</li>
             <li>birchbuild.org</li>
           </ul>
