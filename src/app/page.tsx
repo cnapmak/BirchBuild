@@ -75,7 +75,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-end overflow-hidden">
         {/* Background image */}
         <Image
-          src="/hero-wabansia.webp"
+          src="/hero-wabansia.jpg"
           alt="1756 W. Wabansia interior"
           fill
           priority
