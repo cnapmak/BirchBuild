@@ -19,7 +19,7 @@ export const allProperties: Property[] = [
     address: "1305 W. Chicago", neighborhood: "Noble Square", type: "Mixed-Use", slug: "1305-w-chicago",
     img: "/projects/1305-w-chicago/facade.jpg",
     extraImages: [
-      "/projects/1305-w-chicago/facade-wide.jpg",
+      "/projects/1305-w-chicago/hallway.jpg",
       "/projects/1305-w-chicago/kitchen-living.jpg",
       "/projects/1305-w-chicago/living-room.jpg",
       "/projects/1305-w-chicago/master-bedroom.jpg",
