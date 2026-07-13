@@ -44,7 +44,7 @@ const featuredProjects = [
     slug: "756-n-leavitt",
     description:
       "Boutique elevator building on a corner lot in Ukrainian Village, built in 2013. Extra-wide layouts over 23 ft across, hardwood floors, attached garage parking, and 500 sq ft private rooftop decks with skyline views.",
-    img: "https://resources.atproperties.com/images/MRED/12/093/033/6679e1734d95a/1.jpg",
+    img: "/projects/756-n-leavitt/main.jpg",
   },
   {
     name: "1756 W. Wabansia",
@@ -64,7 +64,7 @@ const featuredProjects = [
     slug: "2702-w-chicago",
     description:
       "Mixed-use development spanning 2702-2712 W. Chicago Ave with approximately 15 residential units and ground-floor commercial space. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
-    img: "https://resources.atproperties.com/images/MRED/11/692/560/63c03e35241c4/1.jpg",
+    img: "/projects/2702-w-chicago/main.jpg",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-end overflow-hidden">
         {/* Background image */}
         <Image
-          src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1800&q=85"
+          src="/hero-chicago.jpg"
           alt="Chicago skyline"
           fill
           priority
@@ -92,11 +92,6 @@ export default function Home() {
             <div className="text-xs font-semibold uppercase tracking-widest text-[#7BB5D8] mb-5">
               Chicago Development & Construction Management
             </div>
-            <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
-              We Build, Rehab,
-              <br />
-              Dreams Into <span className="text-[#5AAED6]">Reality</span>.
-            </h1>
             <p className="text-lg text-[#B5CCE5] leading-relaxed mb-8 max-w-lg">
               BirchBuild develops residential and mixed-use projects across
               Chicago&apos;s near-northwest side, and provides construction
