@@ -38,28 +38,28 @@ const services = [
 const featuredProjects = [
   {
     name: "756 N. Leavitt St",
-    type: "Mixed-Use",
+    type: "Residential",
     location: "Ukrainian Village, Chicago",
     status: "Completed",
     slug: "756-n-leavitt",
     description:
-      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2013. Extra-wide layouts over 23 ft across, hardwood floors, attached garage parking, and 500 sq ft private rooftop decks with skyline views.",
+      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2014. Extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
     img: "/projects/756-n-leavitt/main.jpg",
   },
   {
     name: "1756 W. Wabansia",
     type: "Residential",
-    location: "Wicker Park, Chicago",
+    location: "Bucktown, Chicago",
     status: "Completed",
     slug: "1756-w-wabansia",
     description:
-      "New construction residence in Wicker Park built in 2016. The 3,500 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
+      "New construction residence in Bucktown built in 2016. The 3,270 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
     img: "/projects/1756-w-wabansia/facade.jpg",
   },
   {
     name: "2702-12 W. Chicago Ave",
     type: "Mixed-Use",
-    location: "Ukrainian Village, Chicago",
+    location: "Humboldt Park, Chicago",
     status: "Completed",
     slug: "2702-w-chicago",
     description:
