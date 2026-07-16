@@ -18,7 +18,15 @@ export const allProperties: Property[] = [
   {
     address: "1314 N. Greenview", neighborhood: "Noble Square", type: "Residential", slug: "1314-n-greenview",
     img: "/projects/1314-n-greenview/main.jpg",
-    extraImages: ["/projects/1314-n-greenview/1.png"],
+    extraImages: [
+      "/projects/1314-n-greenview/living-room.jpg",
+      "/projects/1314-n-greenview/dining.jpg",
+      "/projects/1314-n-greenview/1.png",
+      "/projects/1314-n-greenview/bedroom.jpg",
+      "/projects/1314-n-greenview/bath.jpg",
+      "/projects/1314-n-greenview/stairs.jpg",
+      "/projects/1314-n-greenview/deck.jpg",
+    ],
     description: "Two-unit new construction building in Noble Square near the Wicker Park border, completed in 2020. Residences feature white oak herringbone floors, an Archisesto kitchen with Thermador appliances, heated bathroom floors, 8-ft solid core doors, and high ceilings throughout.",
   },
   {
