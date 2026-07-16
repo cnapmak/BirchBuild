@@ -319,7 +319,16 @@ export const allProperties: Property[] = [
   {
     address: "1517 W. Pearson", neighborhood: "Noble Square", type: "Residential", slug: "1517-w-pearson",
     img: "/projects/1517-w-pearson/main.jpg",
-    extraImages: ["/projects/1517-w-pearson/1.jpg"],
+    extraImages: [
+      "/projects/1517-w-pearson/gallery-2.jpg",
+      "/projects/1517-w-pearson/gallery-3.jpg",
+      "/projects/1517-w-pearson/gallery-4.jpg",
+      "/projects/1517-w-pearson/gallery-5.jpg",
+      "/projects/1517-w-pearson/gallery-6.jpg",
+      "/projects/1517-w-pearson/gallery-7.jpg",
+      "/projects/1517-w-pearson/gallery-8.jpg",
+      "/projects/1517-w-pearson/gallery-9.jpg",
+    ],
     description: "Two-unit boutique condo building in Noble Square, part of the Ogden Haus development. Both residences feature three-bedroom layouts with modern finishes, open floor plans, and Bosch and Dacor appliances.",
   },
   // 2009
