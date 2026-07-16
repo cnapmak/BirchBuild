@@ -284,7 +284,7 @@ export const allProperties: Property[] = [
       "/projects/814-n-wood/gallery-14.jpg",
       "/projects/814-n-wood/gallery-15.jpg",
     ],
-    description: "Multi-unit development spanning 814-820 N. Wood on an oversized lot in East Village, built in 2011. Residences include duplex-down units with private outdoor decks, hardwood floors, quartz countertops, and spa-style primary baths with heated floors and steam showers.",
+    description: "Multi-unit development spanning 814-820 N. Wood on an oversized corner lot in East Village, built in 2011. Residences include duplex-down units with private roof decks, hardwood floors, quartz countertops, and spa-style primary baths with heated floors and steam showers.",
   },
   {
     address: "1074 N. Paulina", neighborhood: "East Village", type: "Residential", slug: "1074-n-paulina",
@@ -316,13 +316,13 @@ export const allProperties: Property[] = [
   {
     address: "1527 W. Chestnut", neighborhood: "Noble Square", type: "Residential", slug: "1527-w-chestnut",
     img: "/projects/1527-w-chestnut/main.jpg",
-    description: "Three-unit boutique condo building in Noble Square, built in 2010. The ground-floor unit offers 2,100 sq ft with three bedrooms, while upper residences provide two-bedroom layouts with modern finishes.",
+    description: "Three-unit boutique condo building in Noble Square, part of the Ogden Haus development built in 2010. The ground-floor unit offers 2,100 sq ft with three bedrooms, while upper residences provide two-bedroom layouts with modern finishes.",
   },
   {
     address: "1517 W. Pearson", neighborhood: "Noble Square", type: "Residential", slug: "1517-w-pearson",
     img: "/projects/1517-w-pearson/main.jpg",
     extraImages: ["/projects/1517-w-pearson/1.jpg"],
-    description: "Two-unit boutique condo building in Noble Square. Both residences feature three-bedroom layouts with modern finishes, open floor plans, and Bosch and Dacor appliances.",
+    description: "Two-unit boutique condo building in Noble Square, part of the Ogden Haus development. Both residences feature three-bedroom layouts with modern finishes, open floor plans, and Bosch and Dacor appliances.",
   },
   // 2009
   {
