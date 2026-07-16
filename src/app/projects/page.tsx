@@ -60,6 +60,17 @@ export const allProperties: Property[] = [
   {
     address: "1106 N. Marshfield", neighborhood: "East Village", type: "Residential", slug: "1106-n-marshfield",
     img: "/projects/1106-n-marshfield/main.jpg",
+    extraImages: [
+      "/projects/1106-n-marshfield/gallery-2.jpg",
+      "/projects/1106-n-marshfield/gallery-3.jpg",
+      "/projects/1106-n-marshfield/gallery-4.jpg",
+      "/projects/1106-n-marshfield/gallery-5.jpg",
+      "/projects/1106-n-marshfield/gallery-6.jpg",
+      "/projects/1106-n-marshfield/gallery-7.jpg",
+      "/projects/1106-n-marshfield/gallery-8.jpg",
+      "/projects/1106-n-marshfield/gallery-9.jpg",
+      "/projects/1106-n-marshfield/gallery-10.jpg",
+    ],
     description: "Three-unit, three-story all-brick building in East Village, built in 2018. Units feature floor-to-ceiling windows, gas fireplaces, chef's kitchens with quartz countertops, heated bathroom floors, steam showers, and included garage parking.",
   },
   // 2017
