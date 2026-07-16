@@ -148,7 +148,7 @@ export const allProperties: Property[] = [
     description: "Three-unit condo building in East Village, built in 2014. The ground-floor duplex spans 2,400 sq ft with three bedrooms. All units feature Thermador appliances, custom cabinetry, hardwood floors, and in-unit laundry.",
   },
   {
-    address: "756 N. Leavitt", neighborhood: "Ukrainian Village", type: "Residential", slug: "756-n-leavitt",
+    address: "756 N. Leavitt", neighborhood: "Ukrainian Village", type: "Mixed-Use", slug: "756-n-leavitt",
     img: "/projects/756-n-leavitt/main.jpg",
     extraImages: [
       "/projects/756-n-leavitt/gallery-5.jpg",
@@ -165,7 +165,7 @@ export const allProperties: Property[] = [
       "/projects/756-n-leavitt/roof-deck.jpg",
       "/projects/756-n-leavitt/roof-deck-skyline.jpg",
     ],
-    description: "Boutique elevator building on a corner lot in Ukrainian Village, built in 2014. The building features extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+    description: "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014. A ground-floor restaurant anchors the building, with extra-wide residences over 23 ft across featuring hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
   },
   // 2013
   {
@@ -629,7 +629,7 @@ export const allPins: MapPin[] = [
   { address: "1013 N. Honore", lat: 41.8993, lng: -87.6748, type: "Residential" },
   { address: "1731 N. Richmond", lat: 41.9150, lng: -87.7012, type: "Residential" },
   { address: "1002 N. Hermitage", lat: 41.8993, lng: -87.6736, type: "Residential" },
-  { address: "756 N. Leavitt", lat: 41.8939, lng: -87.6820, type: "Residential" },
+  { address: "756 N. Leavitt", lat: 41.8939, lng: -87.6820, type: "Mixed-Use" },
   { address: "1809 W. Chicago", lat: 41.8960, lng: -87.6802, type: "Residential" },
   { address: "1756 W. Wabansia", lat: 41.9118, lng: -87.6776, type: "Residential" },
   { address: "1305 W. Chicago", lat: 41.8960, lng: -87.6650, type: "Mixed-Use" },
@@ -646,12 +646,12 @@ const featuredProjects = [
   {
     name: "756 N. Leavitt St",
     neighborhood: "Ukrainian Village",
-    type: "Residential",
+    type: "Mixed-Use",
     slug: "756-n-leavitt",
     address: "756 N. Leavitt St, Chicago, IL 60612",
     img: "/projects/756-n-leavitt/main.jpg",
     description:
-      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2014. The building features extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+      "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014. A ground-floor restaurant anchors the building, with extra-wide residences over 23 ft across featuring hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
     highlights: ["New construction", "Full-scale build", "Ukrainian Village"],
   },
   {

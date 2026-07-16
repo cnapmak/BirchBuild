@@ -38,12 +38,12 @@ const services = [
 const featuredProjects = [
   {
     name: "756 N. Leavitt St",
-    type: "Residential",
+    type: "Mixed-Use",
     location: "Ukrainian Village, Chicago",
     status: "Completed",
     slug: "756-n-leavitt",
     description:
-      "Boutique elevator building on a corner lot in Ukrainian Village, built in 2014. Extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+      "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014. A ground-floor restaurant, extra-wide residences over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
     img: "/projects/756-n-leavitt/main.jpg",
   },
   {
