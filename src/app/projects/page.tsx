@@ -32,7 +32,19 @@ export const allProperties: Property[] = [
   {
     address: "1739 W. Julian", neighborhood: "Wicker Park", type: "Residential", slug: "1739-w-julian",
     img: "/projects/1739-w-julian/main.jpg",
-    extraImages: ["/projects/1739-w-julian/1.png"],
+    extraImages: [
+      "/projects/1739-w-julian/living-room.jpg",
+      "/projects/1739-w-julian/living-room-herringbone.jpg",
+      "/projects/1739-w-julian/kitchen-island.jpg",
+      "/projects/1739-w-julian/kitchen-thermador.jpg",
+      "/projects/1739-w-julian/white-oak-staircase.jpg",
+      "/projects/1739-w-julian/bedroom.jpg",
+      "/projects/1739-w-julian/lower-level-bedroom.jpg",
+      "/projects/1739-w-julian/primary-bath.jpg",
+      "/projects/1739-w-julian/second-bath.jpg",
+      "/projects/1739-w-julian/cedar-deck.jpg",
+      "/projects/1739-w-julian/cedar-deck-2.jpg",
+    ],
     description: "Two-unit new construction condo building in Wicker Park, completed in 2020. The building features a duplex-down and penthouse unit, each with three bedrooms and 1,800 sq ft. Interiors include white oak herringbone floors, Thermador appliances, and a large kitchen island with butcher block countertops.",
   },
   // 2018
