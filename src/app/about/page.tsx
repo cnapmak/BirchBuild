@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About | BirchBuild",
   description:
-    "BirchBuild is a Chicago development and construction management firm with 35+ completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
+    "BirchBuild is a Chicago development and construction management firm with 37 completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
 };
 
 const values = [
@@ -21,7 +21,7 @@ const values = [
   {
     title: "Neighborhood Fluency",
     description:
-      "35+ projects concentrated in a handful of Chicago zip codes means we know the ward offices, the inspectors, the subcontractors who deliver, and the ones who don't.",
+      "37 projects concentrated in a handful of Chicago zip codes means we know the ward offices, the inspectors, the subcontractors who deliver, and the ones who don't.",
   },
   {
     title: "Accountability",
@@ -53,7 +53,7 @@ export default function AboutPage() {
             About BirchBuild
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            A Chicago development and construction management firm with 35+
+            A Chicago development and construction management firm with 37
             completed projects across Wicker Park, Ukrainian Village, Noble Square,
             and Bucktown.
           </p>
@@ -88,7 +88,7 @@ export default function AboutPage() {
                 It&apos;s built one project at a time.
               </p>
               <p>
-                Having developed 35+ buildings ourselves gives us a perspective that
+                Having developed 37 buildings ourselves gives us a perspective that
                 pure consulting firms don&apos;t have. We&apos;ve dealt with the same
                 budget pressures, permitting delays, and subcontractor issues that
                 our clients face — which is why we can manage their projects with
@@ -100,9 +100,9 @@ export default function AboutPage() {
           {/* Stats */}
           <div className="space-y-5">
             {[
-              { n: "35+", label: "Completed projects across Chicago" },
-              { n: "$50M+", label: "Construction value" },
-              { n: "8", label: "Chicago neighborhoods with completed projects" },
+              { n: "37", label: "Completed projects across Chicago" },
+              { n: "$66M", label: "Construction value" },
+              { n: "150+", label: "Residences delivered" },
               { n: "20+", label: "Years of experience" },
             ].map((s) => (
               <div

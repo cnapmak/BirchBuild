@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const stats = [
-  { value: "35+", label: "Projects Completed" },
-  { value: "$50M+", label: "Construction Value" },
-  { value: "8", label: "Chicago Neighborhoods" },
+  { value: "37", label: "Projects Completed" },
+  { value: "$66M", label: "Construction Value" },
+  { value: "150+", label: "Residences Delivered" },
   { value: "20+", label: "Years Experience" },
 ];
 
@@ -12,7 +12,7 @@ const services = [
   {
     title: "Residential & Mixed-Use Development",
     description:
-      "We develop our own multi-unit residential and mixed-use projects across Chicago's near-northwest side — from site acquisition through construction and delivery. Our portfolio includes 35+ completed buildings in Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods.",
+      "We develop our own multi-unit residential and mixed-use projects across Chicago's near-northwest side — from site acquisition through construction and delivery. Our portfolio includes 37 completed buildings in Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods.",
     icon: "◉",
   },
   {
@@ -43,7 +43,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "756-n-leavitt",
     description:
-      "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014. A ground-floor restaurant, extra-wide residences over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+      "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014, with eight residences totaling 16,000 sq ft. A ground-floor restaurant, extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
     img: "/projects/756-n-leavitt/main.jpg",
   },
   {
@@ -53,7 +53,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "1756-w-wabansia",
     description:
-      "New construction residence in Bucktown built in 2016. The 3,270 sq ft main home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
+      "New construction single-family residence in Bucktown, built in 2015, with roughly 3,000 sq ft of living space. Four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
     img: "/projects/1756-w-wabansia/facade.jpg",
   },
   {
@@ -63,7 +63,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "2702-w-chicago",
     description:
-      "Mixed-use development spanning 2702-2712 W. Chicago Ave with approximately 15 residential units and ground-floor commercial space. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
+      "Mixed-use development spanning 2702-2712 W. Chicago Ave with twenty residences and ground-floor commercial space totaling 32,000 sq ft. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
     img: "/projects/2702-w-chicago/main.jpg",
   },
 ];
