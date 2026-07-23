@@ -14,6 +14,22 @@ export const metadata: Metadata = {
 
 // All real addresses from birchbuild.org — sorted most recent first
 export const allProperties: Property[] = [
+  // 2025
+  {
+    address: "1900-10 W. Ainslie", neighborhood: "Ravenswood", type: "Residential", slug: "1900-w-ainslie",
+    img: "/projects/1900-w-ainslie/facade.jpg",
+    extraImages: [
+      "/projects/1900-w-ainslie/living-room.jpg",
+      "/projects/1900-w-ainslie/dining-room.jpg",
+      "/projects/1900-w-ainslie/kitchen.jpg",
+      "/projects/1900-w-ainslie/kitchen-2.jpg",
+      "/projects/1900-w-ainslie/bedroom.jpg",
+      "/projects/1900-w-ainslie/bath.jpg",
+      "/projects/1900-w-ainslie/rec-room.jpg",
+      "/projects/1900-w-ainslie/porch.jpg",
+    ],
+    description: "Complete gut rehab of a 20-unit rental building spanning 1900-1910 W. Ainslie in Ravenswood, completed in 2025 — BirchBuild's latest project. Apartments pair restored vintage character, including covered porches and decorative fireplaces, with all-new white shaker kitchens, quartz countertops, stainless appliances, and subway-tile baths.",
+  },
   // 2019
   {
     address: "1314 N. Greenview", neighborhood: "Noble Square", type: "Residential", slug: "1314-n-greenview",
@@ -623,6 +639,7 @@ export const allProperties: Property[] = [
 
 // Pins for the map
 export const allPins: MapPin[] = [
+  { address: "1900-10 W. Ainslie", lat: 41.9707, lng: -87.6774, type: "Residential" },
   { address: "1350 N. Campbell", lat: 41.9056, lng: -87.6978, type: "Residential" },
   { address: "2647 W. Haddon", lat: 41.9021, lng: -87.6935, type: "Residential" },
   { address: "2029 W. Rice", lat: 41.8968, lng: -87.6780, type: "Residential" },
