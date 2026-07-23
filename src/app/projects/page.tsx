@@ -588,6 +588,17 @@ export const allProperties: Property[] = [
   {
     address: "2027 W. Rice", neighborhood: "Ukrainian Village", type: "Residential", slug: "2027-w-rice",
     img: "/projects/2027-w-rice/main.jpg",
+    extraImages: [
+      "/projects/2027-w-rice/living-room.jpg",
+      "/projects/2027-w-rice/open-concept.jpg",
+      "/projects/2027-w-rice/kitchen.jpg",
+      "/projects/2027-w-rice/kitchen-island.jpg",
+      "/projects/2027-w-rice/primary-bedroom.jpg",
+      "/projects/2027-w-rice/primary-bath.jpg",
+      "/projects/2027-w-rice/lower-level-family-room.jpg",
+      "/projects/2027-w-rice/balcony.jpg",
+      "/projects/2027-w-rice/patio.jpg",
+    ],
     description: "Three-unit condo building built in 2005, adjacent to 2029 W. Rice on the same Ukrainian Village block, totaling 4,800 sq ft. Units range from 1,250 to 2,200 sq ft with two- and three-bedroom layouts.",
   },
   {
