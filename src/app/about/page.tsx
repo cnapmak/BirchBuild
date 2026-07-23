@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About | BirchBuild",
   description:
-    "BirchBuild is a Chicago development and construction management firm with 37 completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
+    "BirchBuild is a veteran-owned Chicago development and construction management firm with 37 completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
 };
 
 const values = [
@@ -53,9 +53,9 @@ export default function AboutPage() {
             About BirchBuild
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            A Chicago development and construction management firm with 37
-            completed projects across Wicker Park, Ukrainian Village, Noble Square,
-            and Bucktown.
+            A veteran-owned Chicago development and construction management firm
+            with 37 completed projects across Wicker Park, Ukrainian Village,
+            Noble Square, and Bucktown.
           </p>
         </div>
       </section>
@@ -130,16 +130,19 @@ export default function AboutPage() {
               <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#0B2A4A] mb-2">
                 Eugene
               </h2>
-              <div className="text-sm text-[#2980B9] mb-6">Founder &amp; Principal</div>
+              <div className="text-sm text-[#2980B9] mb-3">Founder &amp; Principal</div>
+              <div className="inline-flex items-center gap-2 rounded-full border border-[#B5CCE5] bg-white px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[#1A4F8A] mb-6">
+                U.S. Marine Corps Veteran
+              </div>
 
-              {/* Placeholder — fill in Eugene's actual background */}
               <div className="space-y-4 text-sm text-[#1C3050] leading-relaxed">
                 <p>
-                  Eugene founded BirchBuild after years of developing residential
-                  and mixed-use buildings across Chicago&apos;s near-northwest side.
-                  That hands-on development experience — navigating permitting, managing
-                  GCs, solving problems on site — is the foundation of everything
-                  BirchBuild does, whether on its own projects or for clients.
+                  Eugene is a United States Marine Corps veteran who founded
+                  BirchBuild after years of developing residential and mixed-use
+                  buildings across Chicago&apos;s near-northwest side. The discipline,
+                  accountability, and mission-first mindset he carried out of the
+                  Corps shape how every project is run — whether it&apos;s one of
+                  BirchBuild&apos;s own developments or a client&apos;s.
                 </p>
                 <p>
                   Every BirchBuild project is managed with principal involvement. Not

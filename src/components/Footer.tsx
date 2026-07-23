@@ -12,6 +12,9 @@ export default function Footer() {
             Chicago residential and mixed-use development. Construction management
             across the near-northwest side.
           </p>
+          <div className="mt-4 text-xs font-semibold uppercase tracking-widest text-[#4A82B5]">
+            Veteran-Owned · Chicago
+          </div>
         </div>
 
         <div>
