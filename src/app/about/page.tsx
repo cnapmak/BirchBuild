@@ -4,41 +4,44 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About | BirchBuild",
   description:
-    "BirchBuild is a veteran-owned Chicago development and construction management firm with 37 completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
+    "BirchBuild is a veteran-owned Chicago development and construction management firm with 38 completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
 };
 
 const values = [
   {
     title: "Aligned Incentives",
     description:
-      "Whether we're developing a project or managing one for a client, we're accountable for the outcome. On CM engagements, our fee is fixed — we don't mark up materials or take a cut from the GC.",
+      "Our CM fee is fixed. We don't mark up materials or take a cut from the GC.",
   },
   {
     title: "Transparency",
     description:
-      "No surprises. You know where the budget stands, where the schedule stands, and what's at risk — not because we spin it, but because we give you the unfiltered picture.",
+      "You know where the budget stands, where the schedule stands, and what's at risk.",
   },
   {
     title: "Neighborhood Fluency",
     description:
-      "37 projects concentrated in a handful of Chicago zip codes means we know the ward offices, the inspectors, the subcontractors who deliver, and the ones who don't.",
+      "38 projects in a handful of zip codes. We know the ward offices, the inspectors, and which subcontractors deliver.",
   },
   {
     title: "Accountability",
     description:
-      "We own outcomes. When something goes wrong on a project we manage, we say so, explain why, and fix it. That's how you build a reputation project by project.",
+      "When something goes wrong, we say so, explain why, and fix it.",
   },
 ];
 
 const neighborhoods = [
-  { name: "Noble Square", count: 11 },
-  { name: "Ukrainian Village", count: 9 },
-  { name: "Wicker Park", count: 6 },
+  { name: "East Village", count: 8 },
+  { name: "Noble Square", count: 7 },
+  { name: "Ukrainian Village", count: 6 },
+  { name: "Wicker Park", count: 5 },
+  { name: "Roscoe Village", count: 3 },
   { name: "Bucktown", count: 2 },
-  { name: "Old Town", count: 2 },
-  { name: "Roscoe Village", count: 2 },
-  { name: "East Village", count: 1 },
-  { name: "Lakeview", count: 1 },
+  { name: "West Town", count: 2 },
+  { name: "Humboldt Park", count: 2 },
+  { name: "Old Town", count: 1 },
+  { name: "Logan Square", count: 1 },
+  { name: "Ravenswood", count: 1 },
 ];
 
 export default function AboutPage() {
@@ -53,9 +56,8 @@ export default function AboutPage() {
             About BirchBuild
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            A veteran-owned Chicago development and construction management firm
-            with 37 completed projects across Wicker Park, Ukrainian Village,
-            Noble Square, and Bucktown.
+            A veteran-owned Chicago development and construction management firm.
+            38 completed projects across the near-northwest side.
           </p>
         </div>
       </section>
@@ -72,26 +74,15 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-sm text-[#1C3050] leading-relaxed">
               <p>
-                BirchBuild develops and builds residential and mixed-use projects
-                across Chicago&apos;s West Side and North Side neighborhoods. We also
-                provide construction management for other developers and investors
-                who need experienced oversight on their own projects. The work spans
-                new construction, gut rehab, mixed-use development, and condo
-                conversion — all within a concentrated cluster of neighborhoods
-                where we have deep, project-by-project experience.
+                BirchBuild develops residential and mixed-use buildings on
+                Chicago&apos;s near-northwest side — new construction, gut rehab,
+                and condo conversion — and provides construction management for
+                developers and investors building in the same neighborhoods.
               </p>
               <p>
-                That concentration is deliberate. Knowing a neighborhood means knowing
-                its zoning quirks, its permitting history, which GCs have operated
-                there, and what inspectors consistently flag. That kind of
-                ground-level knowledge isn&apos;t transferable from a spreadsheet.
-                It&apos;s built one project at a time.
-              </p>
-              <p>
-                Having developed 37 buildings ourselves gives us a perspective that
-                pure consulting firms don&apos;t have. We&apos;ve dealt with the same
-                budget pressures, permitting delays, and subcontractor issues that
-                our clients face — which is why we can manage their projects with
+                The concentration is deliberate: we know each neighborhood&apos;s
+                zoning quirks, permitting history, and inspectors. And having
+                developed 38 buildings ourselves, we manage client projects with
                 the same rigor we apply to our own.
               </p>
             </div>
@@ -100,9 +91,9 @@ export default function AboutPage() {
           {/* Stats */}
           <div className="space-y-5">
             {[
-              { n: "37", label: "Completed projects across Chicago" },
-              { n: "$66M", label: "Construction value" },
-              { n: "150+", label: "Residences delivered" },
+              { n: "38", label: "Completed projects across Chicago" },
+              { n: "$66M+", label: "Construction value" },
+              { n: "170+", label: "Residences delivered" },
               { n: "20+", label: "Years of experience" },
             ].map((s) => (
               <div
@@ -137,18 +128,14 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-sm text-[#1C3050] leading-relaxed">
                 <p>
-                  Eugene is a United States Marine Corps veteran who founded
-                  BirchBuild after years of developing residential and mixed-use
-                  buildings across Chicago&apos;s near-northwest side. The discipline,
-                  accountability, and mission-first mindset he carried out of the
-                  Corps shape how every project is run — whether it&apos;s one of
-                  BirchBuild&apos;s own developments or a client&apos;s.
+                  Eugene is a U.S. Marine Corps veteran with two decades of
+                  Chicago development behind him. The Corps&apos; discipline and
+                  accountability shape how every project is run.
                 </p>
                 <p>
-                  Every BirchBuild project is managed with principal involvement. Not
-                  a junior coordinator checking boxes — the same person who took on
-                  your project is the one walking the site, reviewing the draw, and
-                  on the phone with your GC when something doesn&apos;t add up.
+                  Every project gets principal involvement — the same person who
+                  took it on walks the site, reviews the draws, and calls the GC
+                  when something doesn&apos;t add up.
                 </p>
               </div>
             </div>
@@ -167,7 +154,7 @@ export default function AboutPage() {
                     <div className="flex-1 bg-[#EEF4FB] rounded-full h-2 overflow-hidden">
                       <div
                         className="h-full bg-[#1A4F8A] rounded-full"
-                        style={{ width: `${(n.count / 11) * 100}%` }}
+                        style={{ width: `${(n.count / 8) * 100}%` }}
                       />
                     </div>
                     <div className="text-sm text-[#4A82B5] w-6 text-right shrink-0">

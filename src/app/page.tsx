@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const stats = [
-  { value: "37", label: "Projects Completed" },
-  { value: "$66M", label: "Construction Value" },
-  { value: "150+", label: "Residences Delivered" },
+  { value: "38", label: "Projects Completed" },
+  { value: "$66M+", label: "Construction Value" },
+  { value: "170+", label: "Residences Delivered" },
   { value: "20+", label: "Years Experience" },
 ];
 
@@ -12,25 +12,25 @@ const services = [
   {
     title: "Residential & Mixed-Use Development",
     description:
-      "We develop our own multi-unit residential and mixed-use projects across Chicago's near-northwest side — from site acquisition through construction and delivery. Our portfolio includes 37 completed buildings in Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods.",
+      "38 buildings developed from site acquisition through delivery — Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods.",
     icon: "◉",
   },
   {
     title: "Construction Management",
     description:
-      "For owners and investors building their own projects, we provide hands-on construction management — coordinating GCs, subcontractors, and design teams, reviewing every change order, and tracking the schedule so problems get solved before they compound.",
+      "Hands-on oversight for owners and investors — GC coordination, change-order review, and schedule tracking that catches problems early.",
     icon: "◈",
   },
   {
     title: "Preconstruction & Budgeting",
     description:
-      "The decisions you make before construction starts determine the outcome. We build your budget, assemble the right team, and review plans for constructability before a permit is filed.",
+      "Realistic budgets, the right team, and constructability review — before a permit is filed.",
     icon: "◐",
   },
   {
     title: "Chicago Permitting & Entitlements",
     description:
-      "Chicago's Department of Buildings moves on its own timeline. We know the process, the pitfalls, and the people — so your project doesn't lose months waiting on a plan review.",
+      "We know the process, the pitfalls, and the people — so your project doesn't lose months in plan review.",
     icon: "◑",
   },
 ];
@@ -43,7 +43,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "756-n-leavitt",
     description:
-      "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014, with eight residences totaling 16,000 sq ft. A ground-floor restaurant, extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+      "Eight extra-wide residences over a ground-floor restaurant — 16,000 sq ft on a corner lot, with private 500 sq ft rooftop decks. Built 2014.",
     img: "/projects/756-n-leavitt/main.jpg",
   },
   {
@@ -53,7 +53,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "1756-w-wabansia",
     description:
-      "New construction single-family residence in Bucktown, built in 2015, with roughly 3,000 sq ft of living space. Four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, and specialty lighting throughout.",
+      "3,000 sq ft custom single-family home — Gaggenau kitchen, white oak floors, floating stairs with glass railings. Built 2015.",
     img: "/projects/1756-w-wabansia/facade.jpg",
   },
   {
@@ -63,7 +63,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "2702-w-chicago",
     description:
-      "Mixed-use development spanning 2702-2712 W. Chicago Ave with twenty residences and ground-floor commercial space totaling 32,000 sq ft. Built in 2007 with 9-10 ft ceilings, walnut cabinetry, and a shared rooftop deck.",
+      "Twenty residences and ground-floor commercial across 32,000 sq ft, with a shared rooftop deck. Built 2007.",
     img: "/projects/2702-w-chicago/main.jpg",
   },
 ];
@@ -93,9 +93,9 @@ export default function Home() {
               Chicago Development & Construction Management
             </div>
             <p className="text-lg text-[#B5CCE5] leading-relaxed mb-8 max-w-lg">
-              BirchBuild develops residential and mixed-use projects across
-              Chicago&apos;s near-northwest side, and provides construction
-              management for owners and investors building in the same neighborhoods.
+              Veteran-owned. 38 buildings developed across Chicago&apos;s
+              near-northwest side — plus construction management for owners
+              building in the same neighborhoods.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -251,8 +251,7 @@ export default function Home() {
             Have a project in mind?
           </h2>
           <p className="text-[#7BB5D8] text-lg mb-8">
-            Tell us about your development. We&apos;ll tell you how we can get it
-            built right.
+            Tell us what you&apos;re building.
           </p>
           <Link
             href="/contact"

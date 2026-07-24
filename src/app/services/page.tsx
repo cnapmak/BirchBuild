@@ -12,7 +12,7 @@ const services = [
     title: "Residential & Mixed-Use Development",
     tagline: "New construction, gut rehab, condo conversion — we know the work.",
     description:
-      "BirchBuild's portfolio of 35+ completed buildings runs deep in Chicago's near-northwest neighborhoods — Noble Square, Ukrainian Village, Wicker Park, Bucktown, and East Village. Multi-unit new construction, mixed-use with ground-floor commercial, gut rehabs, and condo conversions. We know how these projects are permitted, how they're built, which subcontractors deliver, and what inspectors look for in each ward.",
+      "38 completed buildings across Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods — multi-unit new construction, mixed-use, gut rehab, and condo conversion.",
     deliverables: [
       "New construction — single-family and multi-unit",
       "Mixed-use development (commercial + residential)",
@@ -27,7 +27,7 @@ const services = [
     title: "Construction Management",
     tagline: "Development experience applied to your project.",
     description:
-      "For owners and investors who need experienced oversight on their builds, we provide full construction management — from contractor selection through closeout. We coordinate GCs, subcontractors, architects, and inspectors, review every change order, verify pay applications, and track schedule and budget so you have a clear picture at every stage. Having built 35+ projects ourselves, we bring a developer's perspective to every decision.",
+      "Full oversight from contractor selection through closeout — every change order reviewed, every pay application verified, schedule and budget tracked. A developer's perspective on every decision.",
     deliverables: [
       "Contractor and design team selection",
       "Master schedule development and weekly tracking",
@@ -43,7 +43,7 @@ const services = [
     title: "Preconstruction & Budget Development",
     tagline: "Where most projects are won or lost.",
     description:
-      "The cheapest change you'll ever make is on paper. Before a permit is filed or a GC is hired, we work with your design team to build a realistic budget, identify scope gaps, and stress-test the schedule. We run a competitive bid process, pre-qualify contractors, and make sure the team you hire is the right team for your specific project in your specific neighborhood.",
+      "The cheapest change you'll ever make is on paper. We build a realistic budget, identify scope gaps, stress-test the schedule, and run a competitive bid process before a permit is filed.",
     deliverables: [
       "Conceptual and detailed construction budgeting",
       "Project schedule development",
@@ -58,7 +58,7 @@ const services = [
     title: "Chicago Permitting & Entitlements",
     tagline: "Local knowledge that keeps projects moving.",
     description:
-      "Chicago's Department of Buildings averages 70-day permit review cycles — and an incomplete submission resets the clock. Mixed-use and residential projects often require multi-departmental sign-off across zoning, fire, and accessibility review. We know what each department flags, how to prepare a clean submission, and when to bring in a permit expediter.",
+      "An incomplete submission resets Chicago's 70-day permit clock. We know what each department flags, how to prepare a clean submission, and when to bring in an expediter.",
     deliverables: [
       "Permit strategy and sequencing",
       "E-Plan submission preparation and coordination",
@@ -73,7 +73,7 @@ const services = [
     title: "GC Procurement & Oversight",
     tagline: "Hire the right contractor. Then hold them to it.",
     description:
-      "Hiring the wrong general contractor on a $1.5M gut rehab or new construction project can mean six-figure losses and a schedule that never recovers. We run a structured procurement process that ensures you're comparing apples to apples, that the contract protects you, and that your GC's accountability is built in from day one.",
+      "The wrong GC can mean six-figure losses. Our structured procurement process makes bids comparable, the contract protective, and accountability built in from day one.",
     deliverables: [
       "Scope of work development for bidding",
       "Bid package preparation and distribution",
@@ -98,10 +98,8 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            We develop our own residential and mixed-use buildings across Chicago&apos;s
-            near-northwest side, and we provide construction management for owners and
-            investors building in the same neighborhoods. Same team, same standards,
-            same ground-level knowledge.
+            We develop our own buildings and manage construction for owners
+            building in the same neighborhoods. Same team, same standards.
           </p>
         </div>
       </section>
@@ -161,9 +159,8 @@ export default function ServicesPage() {
                 Private Investors
               </div>
               <p className="text-sm text-[#1C3050] leading-relaxed">
-                You&apos;re putting capital into a Chicago property. We protect that investment
-                with independent oversight, lender reporting, and a clear picture of where
-                the project stands at every milestone.
+                Independent oversight, lender reporting, and a clear picture of
+                where your project stands at every milestone.
               </p>
             </div>
             <div className="bg-white border border-[#B5CCE5] rounded-xl p-6">
@@ -171,9 +168,8 @@ export default function ServicesPage() {
                 Owner-Builders
               </div>
               <p className="text-sm text-[#1C3050] leading-relaxed">
-                You want to manage your own project but need an experienced construction
-                professional to structure the process, vet contractors, and flag problems
-                before they become expensive.
+                We structure the process, vet contractors, and flag problems
+                before they get expensive — you stay in charge.
               </p>
             </div>
           </div>
@@ -186,8 +182,7 @@ export default function ServicesPage() {
             Not sure which service fits your project?
           </h2>
           <p className="text-[#7BB5D8] mb-8">
-            Most of our clients start with a conversation. Tell us what you&apos;re building
-            and where you are in the process — we&apos;ll tell you where we can add the most value.
+            Tell us what you&apos;re building and where you are in the process.
           </p>
           <Link
             href="/contact"

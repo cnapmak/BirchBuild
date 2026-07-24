@@ -727,7 +727,7 @@ export default function ProjectsPage() {
             Project Portfolio
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
-            37 completed projects across Chicago&apos;s West Town, Ukrainian Village,
+            38 completed projects across Chicago&apos;s West Town, Ukrainian Village,
             Wicker Park, Bucktown, and surrounding neighborhoods.
           </p>
         </div>
