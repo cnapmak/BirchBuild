@@ -716,6 +716,28 @@ const featuredProjects = [
   },
 ];
 
+// Projects currently under construction
+const currentProjects = [
+  {
+    address: "1750 W. 19th St",
+    neighborhood: "Pilsen",
+    type: "New Construction · Residential",
+    units: "3 units",
+  },
+  {
+    address: "2552 W. Madison",
+    neighborhood: "Near West Side",
+    type: "New Construction · Residential",
+    units: "8 units",
+  },
+  {
+    address: "2556 W. Madison",
+    neighborhood: "Near West Side",
+    type: "New Construction · Residential",
+    units: "8 units",
+  },
+];
+
 export default function ProjectsPage() {
   return (
     <>
@@ -729,7 +751,8 @@ export default function ProjectsPage() {
           </h1>
           <p className="text-lg text-[#1C3050] max-w-2xl leading-relaxed">
             38 completed projects across Chicago&apos;s West Town, Ukrainian Village,
-            Wicker Park, Bucktown, and surrounding neighborhoods.
+            Wicker Park, Bucktown, and surrounding neighborhoods. Three more under
+            construction.
           </p>
         </div>
       </section>
@@ -760,6 +783,41 @@ export default function ProjectsPage() {
             </p>
           </div>
           <MapWrapper pins={allPins} properties={allProperties} />
+        </div>
+      </section>
+
+      {/* Currently building */}
+      <section className="bg-white pb-16">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8">
+            <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
+              In Progress
+            </div>
+            <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#0B2A4A]">
+              Currently Building
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {currentProjects.map((p) => (
+              <div
+                key={p.address}
+                className="border border-[#B5CCE5] rounded-xl p-7"
+              >
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="inline-block w-2 h-2 rounded-full bg-[#2980B9] animate-pulse" />
+                  <span className="text-xs font-semibold uppercase tracking-widest text-[#2980B9]">
+                    Under Construction
+                  </span>
+                </div>
+                <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold text-[#0B2A4A] mb-1">
+                  {p.address}
+                </h3>
+                <div className="text-xs text-[#2980B9] mb-4">{p.neighborhood}, Chicago</div>
+                <div className="text-sm text-[#1C3050]">{p.type}</div>
+                <div className="text-sm font-medium text-[#0B2A4A] mt-1">{p.units}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
