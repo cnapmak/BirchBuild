@@ -43,7 +43,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "756-n-leavitt",
     description:
-      "Eight extra-wide residences over a ground-floor restaurant — 16,000 sq ft on a corner lot, with private 500 sq ft rooftop decks. Built 2014.",
+      "Eight residences over a ground-floor restaurant. Built 2014 · 16,000 sq ft. Corner lot; heated garage; private rooftop decks.",
     img: "/projects/756-n-leavitt/main.jpg",
   },
   {
@@ -53,7 +53,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "1756-w-wabansia",
     description:
-      "3,000 sq ft custom single-family home — Gaggenau kitchen, white oak floors, floating stairs with glass railings. Built 2015.",
+      "New construction single-family home. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
     img: "/projects/1756-w-wabansia/facade.jpg",
   },
   {
@@ -63,7 +63,7 @@ const featuredProjects = [
     status: "Completed",
     slug: "2702-w-chicago",
     description:
-      "Twenty residences and ground-floor commercial across 32,000 sq ft, with a shared rooftop deck. Built 2007.",
+      "Twenty residences over ground-floor commercial. Built 2007 · 32,000 sq ft. Shared rooftop deck; private balconies.",
     img: "/projects/2702-w-chicago/main.jpg",
   },
 ];

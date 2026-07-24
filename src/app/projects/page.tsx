@@ -34,7 +34,7 @@ export const allProperties: Property[] = [
       "/projects/1350-n-campbell/gallery-14.jpg",
       "/projects/1350-n-campbell/gallery-15.jpg",
     ],
-    description: "Four-unit building in a 1909 solid-brick structure on a tree-lined block steps from Humboldt Park, redeveloped in 2005 and totaling 4,200 sq ft. Units feature modern fireplaces, Juliette balconies, renovated baths with Moroccan tile, in-unit laundry, and garage parking.",
+    description: "Four-unit condo building near Humboldt Park — full redevelopment of a 1909 brick structure. Completed 2005 · 4,200 sq ft. Garage parking.",
   },
   {
     address: "2647 W. Haddon", neighborhood: "West Town", type: "Residential", slug: "2647-w-haddon",
@@ -51,7 +51,7 @@ export const allProperties: Property[] = [
       "/projects/2647-w-haddon/balcony.jpg",
       "/projects/2647-w-haddon/roof-deck.jpg",
     ],
-    description: "Three-unit condo building built in 2005 just west of Ukrainian Village, near the California Avenue corridor, totaling 4,800 sq ft. The building includes a spacious ground-floor duplex with three bedrooms and three baths, plus two upper-level residences.",
+    description: "Three-unit condo building in West Town. Built 2005 · 4,800 sq ft. Ground-floor duplex plus two upper units; private balcony and roof deck.",
   },
   {
     address: "2027 W. Rice", neighborhood: "Ukrainian Village", type: "Residential", slug: "2027-w-rice",
@@ -67,7 +67,7 @@ export const allProperties: Property[] = [
       "/projects/2027-w-rice/balcony.jpg",
       "/projects/2027-w-rice/patio.jpg",
     ],
-    description: "Three-unit condo building built in 2005, adjacent to 2029 W. Rice on the same Ukrainian Village block, totaling 4,800 sq ft. Units range from 1,250 to 2,200 sq ft with two- and three-bedroom layouts.",
+    description: "Three-unit condo building in Ukrainian Village, adjacent to 2029 W. Rice. Built 2005 · 4,800 sq ft. Units from 1,250 to 2,200 sq ft.",
   },
   {
     address: "2029 W. Rice", neighborhood: "Ukrainian Village", type: "Residential", slug: "2029-w-rice",
@@ -88,18 +88,18 @@ export const allProperties: Property[] = [
       "/projects/2029-w-rice/gallery-14.jpg",
       "/projects/2029-w-rice/gallery-15.jpg",
     ],
-    description: "Brick-and-limestone, three-unit condo building on a quiet Ukrainian Village side street, built in 2005 and totaling 4,800 sq ft. The building features a 2,200 sq ft duplex-down and upper-level residences with contemporary finishes throughout.",
+    description: "Three-unit condo building in Ukrainian Village, adjacent to 2027 W. Rice. Built 2005 · 4,800 sq ft. 2,200 sq ft duplex-down plus two upper units.",
   },
   // 2006
   {
     address: "1849 W. Armitage", neighborhood: "Bucktown", type: "Residential", slug: "1849-w-armitage",
     img: "/projects/1849-w-armitage/main.webp",
-    description: "Three-story brick building with three condos on Bucktown's main Armitage corridor, built in 2006, totaling 4,800 sq ft. Units include hardwood floors, in-unit laundry, gas fireplaces, and a detached garage.",
+    description: "Three-unit condo building on Bucktown's Armitage corridor. Built 2006 · 4,800 sq ft. Detached garage.",
   },
   {
     address: "2032 W. Superior", neighborhood: "Ukrainian Village", type: "Residential", slug: "2032-w-superior",
     img: "/projects/2032-w-superior/main.jpg",
-    description: "Three-unit condo building on Superior Street in Ukrainian Village, built in 2006, totaling 5,400 sq ft. The building offers two- and three-bedroom residences with modern finishes in a walkable location one block off the Chicago Avenue corridor.",
+    description: "Three-unit condo building in Ukrainian Village, one block off the Chicago Avenue corridor. Built 2006 · 5,400 sq ft.",
   },
   // 2007
   {
@@ -121,7 +121,7 @@ export const allProperties: Property[] = [
       "/projects/2702-w-chicago/balcony-skyline.jpg",
       "/projects/2702-w-chicago/rooftop-deck.jpg",
     ],
-    description: "Large mixed-use development spanning 2702-2712 W. Chicago Avenue, built in 2007, with twenty residences and ground-floor commercial space totaling 32,000 sq ft. The building features 9-10 ft ceilings, gas fireplaces, walnut cabinetry, a shared rooftop deck, and private balconies, with a 1,400 sq ft storefront anchoring the Chicago Avenue corridor.",
+    description: "Mixed-use development spanning 2702-2712 W. Chicago Avenue in Humboldt Park. Built 2007 · 32,000 sq ft. Twenty residences over a 1,400 sq ft commercial storefront; shared rooftop deck and private balconies.",
   },
   {
     address: "2241 W. Roscoe", neighborhood: "Roscoe Village", type: "Residential", slug: "2241-w-roscoe",
@@ -142,7 +142,7 @@ export const allProperties: Property[] = [
       "/projects/2241-w-roscoe/gallery-14.jpg",
       "/projects/2241-w-roscoe/gallery-15.jpg",
     ],
-    description: "Brick-and-limestone, three-unit condo building in the Audubon Elementary school district in Roscoe Village, built in 2007, totaling 6,200 sq ft. Units range up to 2,500 sq ft, with the penthouse holding exclusive rooftop rights. Covered parking included.",
+    description: "Three-unit condo building in Roscoe Village. Built 2007 · 6,200 sq ft. Units up to 2,500 sq ft; penthouse holds exclusive rooftop rights; covered parking.",
   },
   {
     address: "2243 W. Roscoe", neighborhood: "Roscoe Village", type: "Residential", slug: "2243-w-roscoe",
@@ -158,7 +158,7 @@ export const allProperties: Property[] = [
       "/projects/2243-w-roscoe/roof-deck.jpg",
       "/projects/2243-w-roscoe/skyline-view.jpg",
     ],
-    description: "Three-unit brick building next door to 2241 W. Roscoe in Roscoe Village, built in 2007, totaling 6,200 sq ft. The ground-floor duplex-down offers four bedrooms and 3,020 sq ft with a 31x15 ft rec room on the lower level. Upper units feature gas fireplaces and quartz countertops.",
+    description: "Three-unit condo building in Roscoe Village, adjacent to 2241 W. Roscoe. Built 2007 · 6,200 sq ft. Four-bedroom duplex-down of 3,020 sq ft plus two upper units.",
   },
   {
     address: "1037 N. Marshfield", neighborhood: "East Village", type: "Residential", slug: "1037-n-marshfield",
@@ -179,7 +179,7 @@ export const allProperties: Property[] = [
       "/projects/1037-n-marshfield/gallery-14.jpg",
       "/projects/1037-n-marshfield/gallery-15.jpg",
     ],
-    description: "Three-story, all-brick, three-unit building in East Village, built in 2007, totaling 4,800 sq ft. The ground-floor duplex spans 2,400 sq ft with three bedrooms, while upper units offer two-bedroom layouts with hardwood floors and modern finishes.",
+    description: "Three-unit condo building in East Village, adjacent to 1039 N. Marshfield. Built 2007 · 4,800 sq ft. 2,400 sq ft ground-floor duplex plus two upper units.",
   },
   {
     address: "1039 N. Marshfield", neighborhood: "East Village", type: "Residential", slug: "1039-n-marshfield",
@@ -200,7 +200,7 @@ export const allProperties: Property[] = [
       "/projects/1039-n-marshfield/gallery-14.jpg",
       "/projects/1039-n-marshfield/gallery-15.jpg",
     ],
-    description: "Three-story masonry building adjacent to 1037 N. Marshfield in East Village, built in 2007, totaling 4,800 sq ft across three units, with an 1,800 sq ft ground-floor residence and 1,400 sq ft upper units.",
+    description: "Three-unit condo building in East Village, adjacent to 1037 N. Marshfield. Built 2007 · 4,800 sq ft. 1,800 sq ft ground-floor unit plus two 1,400 sq ft upper units.",
   },
   // 2008
   {
@@ -212,7 +212,7 @@ export const allProperties: Property[] = [
       "/projects/1331-n-mohawk/gallery-8.jpg",
       "/projects/1331-n-mohawk/gallery-9.jpg",
     ],
-    description: "Contemporary three-unit condo building in Old Town, built in 2008, totaling 4,800 sq ft. The building features 11-ft ceilings, stone fireplaces, Dacor appliances, walnut cabinetry, and spa-style primary baths with steam showers. Units have private outdoor spaces and separate entrances.",
+    description: "Three-unit condo building in Old Town. Built 2008 · 4,800 sq ft. Private entrances and private outdoor space for each unit.",
   },
   {
     address: "1438 N. Wood", neighborhood: "Wicker Park", type: "Residential", slug: "1438-n-wood",
@@ -234,18 +234,18 @@ export const allProperties: Property[] = [
       "/projects/1438-n-wood/private-deck.jpg",
       "/projects/1438-n-wood/roof-deck.jpg",
     ],
-    description: "Three-unit condo building in Wicker Park, built in 2008, totaling 4,800 sq ft. The ground-floor residence spans 2,300 sq ft with three bedrooms and three baths, while upper units offer two-bedroom layouts, all with modern finishes and garage parking.",
+    description: "Three-unit condo building in Wicker Park. Built 2008 · 4,800 sq ft. 2,300 sq ft ground-floor duplex plus two upper units; garage parking.",
   },
   {
     address: "2116 W. Barry", neighborhood: "Roscoe Village", type: "Residential", slug: "2116-w-barry",
     img: "/projects/2116-w-barry/main.jpg",
-    description: "All-brick, three-unit condo building near Hamlin Park in Roscoe Village, built in 2008, totaling 4,800 sq ft. Residences range from 1,300 to 2,300 sq ft with two- and three-bedroom layouts on a quiet residential street.",
+    description: "Three-unit condo building in Roscoe Village, near Hamlin Park. Built 2008 · 4,800 sq ft. Units from 1,300 to 2,300 sq ft.",
   },
   // 2009
   {
     address: "1527 W. Chestnut", neighborhood: "Noble Square", type: "Residential", slug: "1527-w-chestnut",
     img: "/projects/1527-w-chestnut/main.jpg",
-    description: "Three-unit boutique condo building in Noble Square, part of the Ogden Haus development, built in 2009 and totaling 5,600 sq ft. The ground-floor unit offers 2,100 sq ft with three bedrooms, while upper residences provide two-bedroom layouts with modern finishes.",
+    description: "Three-unit condo building in Noble Square, part of the Ogden Haus development. Built 2009 · 5,600 sq ft. 2,100 sq ft ground-floor unit plus two upper units.",
   },
   {
     address: "922 N. Hermitage", neighborhood: "East Village", type: "Residential", slug: "922-n-hermitage",
@@ -266,12 +266,12 @@ export const allProperties: Property[] = [
       "/projects/922-n-hermitage/gallery-14.jpg",
       "/projects/922-n-hermitage/gallery-15.jpg",
     ],
-    description: "Three-unit, three-story condo building in East Village, built in 2009, totaling 4,800 sq ft. The ground-floor duplex features luxury finishes, a wet bar, and a steam shower, with two-bedroom residences above.",
+    description: "Three-unit condo building in East Village. Built 2009 · 4,800 sq ft. Ground-floor duplex plus two upper units.",
   },
   {
     address: "1074 N. Paulina", neighborhood: "East Village", type: "Residential", slug: "1074-n-paulina",
     img: "/projects/1074-n-paulina/main.jpg",
-    description: "Three-unit condo building in East Village on the border of Wicker Park, built in 2009, totaling 4,800 sq ft. The building features three- and two-bedroom residences with contemporary finishes throughout.",
+    description: "Three-unit condo building in East Village, on the Wicker Park border. Built 2009 · 4,800 sq ft.",
   },
   // 2010
   {
@@ -289,7 +289,7 @@ export const allProperties: Property[] = [
       "/projects/1108-w-fry/roof-dining.jpg",
       "/projects/1108-w-fry/skyline-view.jpg",
     ],
-    description: "Two-unit condo building on a quiet Noble Square side street, built in 2010, totaling 4,000 sq ft. The upper residence offers 2,000 sq ft with three bedrooms and three baths in a modern, open layout.",
+    description: "Two-unit condo building in Noble Square. Built 2010 · 4,000 sq ft. Upper residence spans 2,000 sq ft.",
   },
   // 2011
   {
@@ -311,7 +311,7 @@ export const allProperties: Property[] = [
       "/projects/814-n-wood/gallery-14.jpg",
       "/projects/814-n-wood/gallery-15.jpg",
     ],
-    description: "Six-unit development spanning 814-820 N. Wood on an oversized corner lot in East Village, built in 2011, totaling 9,600 sq ft. Residences include duplex-down units with private roof decks, hardwood floors, quartz countertops, and spa-style primary baths with heated floors and steam showers.",
+    description: "Six-unit development spanning 814-820 N. Wood in East Village, on an oversized corner lot. Built 2011 · 9,600 sq ft. Duplex-down units with private roof decks.",
   },
   {
     address: "1517 W. Pearson", neighborhood: "Noble Square", type: "Residential", slug: "1517-w-pearson",
@@ -326,7 +326,7 @@ export const allProperties: Property[] = [
       "/projects/1517-w-pearson/gallery-8.jpg",
       "/projects/1517-w-pearson/gallery-9.jpg",
     ],
-    description: "Two-unit boutique condo building in Noble Square, part of the Ogden Haus development, built in 2011 and totaling 4,000 sq ft. Both residences feature three-bedroom layouts with modern finishes, open floor plans, and Bosch and Dacor appliances.",
+    description: "Two-unit condo building in Noble Square, part of the Ogden Haus development. Built 2011 · 4,000 sq ft. Two three-bedroom residences.",
   },
   // 2012
   {
@@ -345,7 +345,7 @@ export const allProperties: Property[] = [
       "/projects/2207-w-chicago/gallery-17.jpg",
       "/projects/2207-w-chicago/roof-deck-lights.jpg",
     ],
-    description: "Seven-unit elevator building on Chicago Avenue in Ukrainian Village, built in 2012, totaling 12,000 sq ft. Units feature three bedrooms and two baths with 11-ft ceilings, floor-to-ceiling windows, two-car tandem garage parking, and private rooftop access, ranging from 1,650 to 1,800 sq ft.",
+    description: "Seven-unit elevator building on the Chicago Avenue corridor in Ukrainian Village. Built 2012 · 12,000 sq ft. Three-bedroom units from 1,650 to 1,800 sq ft; two-car tandem garage parking; private rooftop access.",
   },
   {
     address: "532 N. Hermitage", neighborhood: "West Town", type: "Residential", slug: "532-n-hermitage",
@@ -367,7 +367,7 @@ export const allProperties: Property[] = [
       "/projects/532-n-hermitage/terrace-stair-tower.jpg",
       "/projects/532-n-hermitage/exterior-steel-stairs.jpg",
     ],
-    description: "Four-unit contemporary condo building in West Town, built in 2012, totaling 8,000 sq ft. Residences offer roughly 2,000 sq ft with three bedrooms, large east-facing windows, modern finishes, and attached garage parking.",
+    description: "Four-unit condo building in West Town. Built 2012 · 8,000 sq ft. Three-bedroom units of roughly 2,000 sq ft; attached garage parking.",
   },
   // 2013
   {
@@ -389,7 +389,7 @@ export const allProperties: Property[] = [
       "/projects/1457-w-erie/gallery-14.jpg",
       "/projects/1457-w-erie/1.jpg",
     ],
-    description: "Three-unit condo building in Noble Square built in 2013 by Db Develops, totaling 4,600 sq ft. Units feature clean-line contemporary design with custom imported finishes and duplex-style layouts, ranging from 1,350 to 2,400 sq ft with two- and three-bedroom configurations.",
+    description: "Three-unit condo building in Noble Square. Built 2013 · 4,600 sq ft. Duplex-style units from 1,350 to 2,400 sq ft.",
   },
   {
     address: "1013 N. Honore", neighborhood: "East Village", type: "Residential", slug: "1013-n-honore",
@@ -403,18 +403,18 @@ export const allProperties: Property[] = [
       "/projects/1013-n-honore/gallery-7.jpg",
       "/projects/1013-n-honore/roof-deck.jpg",
     ],
-    description: "Three-unit condo building in East Village, built in 2013, totaling 4,800 sq ft. The ground-floor duplex spans 2,400 sq ft with three bedrooms. All units feature Thermador appliances, custom cabinetry, hardwood floors, and in-unit laundry.",
+    description: "Three-unit condo building in East Village. Built 2013 · 4,800 sq ft. 2,400 sq ft ground-floor duplex plus two upper units.",
   },
   {
     address: "1002 N. Hermitage", neighborhood: "East Village", type: "Residential", slug: "1002-n-hermitage",
     img: "/projects/1002-n-hermitage/main.jpg",
     extraImages: ["/projects/1002-n-hermitage/1.jpg"],
-    description: "Two-unit condo building in East Village, built in 2013, totaling 4,200 sq ft. Residences offer roughly 2,100 sq ft with three bedrooms and modern finishes throughout.",
+    description: "Two-unit condo building in East Village. Built 2013 · 4,200 sq ft. Three-bedroom units of roughly 2,100 sq ft.",
   },
   {
     address: "1731 N. Richmond", neighborhood: "Logan Square", type: "Residential", slug: "1731-n-richmond",
     img: "/projects/1731-n-richmond/main.jpg",
-    description: "Single-family home in Logan Square built in 2013, steps from the 606 trail. The roughly 2,200 sq ft residence features 13-ft ceilings, 35 linear feet of Italian kitchen cabinetry, Bosch appliances, custom light fixtures with reclaimed wood from the original home, an oversized walk-out deck, and a rooftop area.",
+    description: "Single-family home in Logan Square, steps from the 606 trail. Built 2013 · 2,200 sq ft. Walk-out deck and rooftop area.",
   },
   // 2014
   {
@@ -435,7 +435,7 @@ export const allProperties: Property[] = [
       "/projects/756-n-leavitt/roof-deck.jpg",
       "/projects/756-n-leavitt/roof-deck-skyline.jpg",
     ],
-    description: "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014, with eight residences totaling 16,000 sq ft. A ground-floor restaurant anchors the building, with extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+    description: "Eight-unit mixed-use elevator building on a corner lot in Ukrainian Village. Built 2014 · 16,000 sq ft. Ground-floor restaurant; attached heated garage; 500 sq ft private rooftop decks.",
   },
   {
     address: "1809 W. Chicago", neighborhood: "Ukrainian Village", type: "Residential", slug: "1809-w-chicago",
@@ -457,7 +457,7 @@ export const allProperties: Property[] = [
       "/projects/1809-w-chicago/gallery-15.jpg",
       "/projects/1809-w-chicago/1.jpg",
     ],
-    description: "Ten-unit, four-story condo building on Chicago Avenue in Ukrainian Village, built in 2014, totaling 18,000 sq ft. Units feature three-bedroom layouts of roughly 1,500 to 1,800 sq ft, in-unit laundry, and heated garage parking.",
+    description: "Ten-unit building on the Chicago Avenue corridor in Ukrainian Village. Built 2014 · 18,000 sq ft. Three-bedroom units from 1,500 to 1,800 sq ft; heated garage parking.",
   },
   // 2015
   {
@@ -472,7 +472,7 @@ export const allProperties: Property[] = [
       "/projects/1305-w-chicago/second-bedroom.jpg",
       "/projects/1305-w-chicago/rooftop-deck.jpg",
     ],
-    description: "Seven-unit boutique elevator building spanning 1305-1311 W. Chicago Avenue in Noble Square, completed in 2015, totaling 12,000 sq ft. Units feature three bedrooms and two baths across roughly 1,660 sq ft with dark oak hardwood floors, custom Italian cabinetry, quartz countertops, and private elevator-accessed rooftop decks with Chicago skyline views.",
+    description: "Seven-unit mixed-use elevator building spanning 1305-1311 W. Chicago Avenue in Noble Square. Built 2015 · 12,000 sq ft. Three-bedroom units; private elevator-accessed rooftop decks.",
   },
   {
     address: "1756 W. Wabansia", neighborhood: "Bucktown", type: "Residential", slug: "1756-w-wabansia",
@@ -489,7 +489,7 @@ export const allProperties: Property[] = [
       "/projects/1756-w-wabansia/covered-deck.jpg",
       "/projects/1756-w-wabansia/roof-deck.jpg",
     ],
-    description: "New construction single-family residence in Bucktown, built in 2015, with roughly 3,000 sq ft of living space. The home features four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, a cedar garage deck, and specialty lighting throughout.",
+    description: "New construction single-family home in Bucktown. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
   },
   // 2016
   {
@@ -511,7 +511,7 @@ export const allProperties: Property[] = [
       "/projects/1433-n-ashland/gallery-14.jpg",
       "/projects/1433-n-ashland/gallery-15.jpg",
     ],
-    description: "Ten-unit boutique elevator building in Wicker Park, built in 2016, totaling 18,000 sq ft. Units offer approximately 1,600 to 1,700 sq ft with three bedrooms, two baths, and contemporary finishes throughout, with modern construction and luxury appointments.",
+    description: "Ten-unit elevator building in Wicker Park. Built 2016 · 18,000 sq ft. Three-bedroom units of roughly 1,600 to 1,700 sq ft.",
   },
   {
     address: "1512 W. Huron", neighborhood: "Noble Square", type: "Residential", slug: "1512-w-huron",
@@ -531,7 +531,7 @@ export const allProperties: Property[] = [
       "/projects/1512-w-huron/private-deck.jpg",
       "/projects/1512-w-huron/deck-roof-access.jpg",
     ],
-    description: "All-brick, three-unit condo building in Noble Square, built in 2016, totaling 4,800 sq ft. The ground-floor residence spans 2,587 sq ft with three bedrooms, while upper units offer two-bedroom layouts. All units include modern finishes and garage parking.",
+    description: "Three-unit condo building in Noble Square. Built 2016 · 4,800 sq ft. 2,587 sq ft ground-floor duplex plus two upper units; garage parking.",
   },
   {
     address: "1944 W. Crystal", neighborhood: "Wicker Park", type: "Residential", slug: "1944-w-crystal",
@@ -556,7 +556,7 @@ export const allProperties: Property[] = [
       "/projects/1944-w-crystal/roof-deck.jpg",
       "/projects/1944-w-crystal/roof-deck-2.jpg",
     ],
-    description: "Two-unit luxury condo building on a tree-lined Wicker Park block, built in 2016, totaling 4,200 sq ft. Residences feature designer kitchens, heated floors, and private outdoor spaces across three- and four-bedroom layouts.",
+    description: "Two-unit condo building in Wicker Park. Built 2016 · 4,200 sq ft. Three- and four-bedroom duplex residences with private outdoor space.",
   },
   // 2017
   {
@@ -573,7 +573,7 @@ export const allProperties: Property[] = [
       "/projects/1106-n-marshfield/gallery-9.jpg",
       "/projects/1106-n-marshfield/gallery-10.jpg",
     ],
-    description: "Three-unit, three-story all-brick building in East Village, built in 2017, totaling 4,800 sq ft. Units feature floor-to-ceiling windows, gas fireplaces, chef's kitchens with quartz countertops, heated bathroom floors, steam showers, and included garage parking.",
+    description: "Three-unit condo building in East Village. Built 2017 · 4,800 sq ft. Garage parking included.",
   },
   {
     address: "1468 N. Ashland", neighborhood: "Wicker Park", type: "Mixed-Use", slug: "1468-n-ashland",
@@ -585,7 +585,7 @@ export const allProperties: Property[] = [
       "/projects/1468-n-ashland/gallery-7.jpg",
       "/projects/1468-n-ashland/gallery-12.jpg",
     ],
-    description: "Mixed-use boutique building on Ashland Avenue in Wicker Park. The original 1875 structure was redeveloped in 2017 into an upscale building totaling 4,200 sq ft, with ground-floor commercial and retail space and four residences above.",
+    description: "Four-unit mixed-use building on Ashland Avenue in Wicker Park — redevelopment of an 1875 structure. Completed 2017 · 4,200 sq ft. Ground-floor commercial space with four residences above.",
   },
   // 2019
   {
@@ -600,7 +600,7 @@ export const allProperties: Property[] = [
       "/projects/1314-n-greenview/stairs.jpg",
       "/projects/1314-n-greenview/deck.jpg",
     ],
-    description: "Two-unit new construction building in Noble Square near the Wicker Park border, completed in 2019, totaling 4,000 sq ft. Residences feature white oak herringbone floors, an Archisesto kitchen with Thermador appliances, heated bathroom floors, 8-ft solid core doors, and high ceilings throughout.",
+    description: "Two-unit condo building in Noble Square, near the Wicker Park border. Built 2019 · 4,000 sq ft.",
   },
   {
     address: "1739 W. Julian", neighborhood: "Wicker Park", type: "Residential", slug: "1739-w-julian",
@@ -618,7 +618,7 @@ export const allProperties: Property[] = [
       "/projects/1739-w-julian/cedar-deck.jpg",
       "/projects/1739-w-julian/cedar-deck-2.jpg",
     ],
-    description: "Two-unit new construction condo building in Wicker Park, completed in 2019, totaling 3,600 sq ft. The building pairs a duplex-down and a penthouse, each with three bedrooms and 1,800 sq ft. Interiors include white oak herringbone floors, Thermador appliances, and a large kitchen island with butcher block countertops.",
+    description: "Two-unit condo building in Wicker Park. Built 2019 · 3,600 sq ft. Duplex-down plus penthouse, each three bedrooms and 1,800 sq ft.",
   },
   // 2025
   {
@@ -634,7 +634,7 @@ export const allProperties: Property[] = [
       "/projects/1900-w-ainslie/rec-room.jpg",
       "/projects/1900-w-ainslie/porch.jpg",
     ],
-    description: "Complete gut rehab of a 20-unit rental building spanning 1900-1910 W. Ainslie in Ravenswood, completed in 2025 — BirchBuild's latest project. Apartments pair restored vintage character, including covered porches and decorative fireplaces, with all-new white shaker kitchens, quartz countertops, stainless appliances, and subway-tile baths.",
+    description: "Complete gut rehab of a 20-unit rental building spanning 1900-1910 W. Ainslie in Ravenswood. Completed 2025. Fully re-leased apartment property.",
   },
 ];
 
@@ -689,7 +689,7 @@ const featuredProjects = [
     address: "756 N. Leavitt St, Chicago, IL 60612",
     img: "/projects/756-n-leavitt/main.jpg",
     description:
-      "Boutique mixed-use elevator building on a corner lot in Ukrainian Village, built in 2014, with eight residences totaling 16,000 sq ft. A ground-floor restaurant anchors the building, with extra-wide layouts over 23 ft across, hardwood floors, attached heated garage parking, and 500 sq ft private rooftop decks with skyline views.",
+      "Eight-unit mixed-use elevator building on a corner lot. Built 2014 · 16,000 sq ft. Ground-floor restaurant; attached heated garage; private rooftop decks.",
     highlights: ["8 residences", "Ground-floor restaurant", "Ukrainian Village"],
   },
   {
@@ -700,8 +700,8 @@ const featuredProjects = [
     address: "1756 W. Wabansia, Chicago, IL 60622",
     img: "/projects/1756-w-wabansia/facade.jpg",
     description:
-      "New construction single-family residence in Bucktown, built in 2015, with roughly 3,000 sq ft of living space. Four bedrooms, a Gaggenau kitchen, white oak floors, custom floating stairs with glass railings, a cedar garage deck, and specialty lighting throughout.",
-    highlights: ["Custom single-family", "High-end finishes", "Bucktown"],
+      "New construction single-family home. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
+    highlights: ["Custom single-family", "New construction", "Bucktown"],
   },
   {
     name: "2702-12 W. Chicago Ave",
@@ -711,7 +711,7 @@ const featuredProjects = [
     address: "2702-12 W. Chicago Ave, Chicago, IL 60622",
     img: "/projects/2702-w-chicago/main.jpg",
     description:
-      "Mixed-use development spanning 2702-2712 W. Chicago Ave with twenty residences and ground-floor commercial space totaling 32,000 sq ft. Built in 2007, the building features 9-10 ft ceilings, gas fireplaces, walnut cabinetry, a shared rooftop deck, and private balconies.",
+      "Mixed-use development spanning 2702-2712 W. Chicago Ave. Built 2007 · 32,000 sq ft. Twenty residences over 1,400 sq ft of commercial; shared rooftop deck.",
     highlights: ["20 residences", "Chicago Ave corridor", "Humboldt Park"],
   },
 ];
