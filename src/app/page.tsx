@@ -10,28 +10,16 @@ const stats = [
 
 const services = [
   {
-    title: "Residential & Mixed-Use Development",
+    title: "Development",
     description:
-      "38 buildings developed from site acquisition through delivery — Noble Square, Ukrainian Village, Wicker Park, and surrounding neighborhoods.",
+      "38 buildings developed from site acquisition through delivery — new construction, mixed-use, gut rehab, and condo conversion.",
     icon: "◉",
   },
   {
     title: "Construction Management",
     description:
-      "Hands-on oversight for owners and investors — GC coordination, change-order review, and schedule tracking that catches problems early.",
+      "We run your project the way we run our own — budget and schedule before permits, competitive GC bids, Chicago permitting end to end.",
     icon: "◈",
-  },
-  {
-    title: "Preconstruction & Budgeting",
-    description:
-      "Realistic budgets, the right team, and constructability review — before a permit is filed.",
-    icon: "◐",
-  },
-  {
-    title: "Chicago Permitting & Entitlements",
-    description:
-      "We know the process, the pitfalls, and the people — so your project doesn't lose months in plan review.",
-    icon: "◑",
   },
 ];
 
@@ -166,7 +154,7 @@ export default function Home() {
               href="/services"
               className="text-sm font-medium text-[#1A4F8A] hover:text-[#0B2A4A] underline underline-offset-4"
             >
-              See all services
+              More about what we do
             </Link>
           </div>
         </div>
