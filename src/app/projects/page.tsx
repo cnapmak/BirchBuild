@@ -623,17 +623,7 @@ export const allProperties: Property[] = [
   // 2025
   {
     address: "1900-10 W. Ainslie", neighborhood: "Ravenswood", type: "Residential", slug: "1900-w-ainslie",
-    img: "/projects/1900-w-ainslie/facade.jpg",
-    extraImages: [
-      "/projects/1900-w-ainslie/living-room.jpg",
-      "/projects/1900-w-ainslie/dining-room.jpg",
-      "/projects/1900-w-ainslie/kitchen.jpg",
-      "/projects/1900-w-ainslie/kitchen-2.jpg",
-      "/projects/1900-w-ainslie/bedroom.jpg",
-      "/projects/1900-w-ainslie/bath.jpg",
-      "/projects/1900-w-ainslie/rec-room.jpg",
-      "/projects/1900-w-ainslie/porch.jpg",
-    ],
+    // Photos pending — prior images were of a different property and were removed 2026-08.
     description: "Complete gut rehab of a 20-unit rental building spanning 1900-1910 W. Ainslie in Ravenswood. Completed 2025. Fully re-leased apartment property.",
   },
 ];
