@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import ImageGalleryClient from "@/components/ImageGalleryClient";
+import { OG_IMAGE } from "@/app/shared-metadata";
 import { allProperties } from "../page";
 
 interface Props {
@@ -17,9 +18,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const property = allProperties.find((p) => p.slug === slug);
   if (!property) return {};
+  const description =
+    property.description ??
+    `BirchBuild project at ${property.address}, ${property.neighborhood}, Chicago. ${property.type} construction and renovation.`;
+
   return {
     title: `${property.address} | BirchBuild`,
     description: `BirchBuild project at ${property.address}, ${property.neighborhood}, Chicago. ${property.type} construction and renovation.`,
+    alternates: { canonical: `/projects/${property.slug}` },
+    openGraph: {
+      title: `${property.address} — ${property.neighborhood}, Chicago`,
+      description,
+      url: `/projects/${property.slug}`,
+      images: [OG_IMAGE],
+    },
   };
 }
 

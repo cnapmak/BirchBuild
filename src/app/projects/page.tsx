@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { OG_IMAGE } from "@/app/shared-metadata";
 import Link from "next/link";
 import MapWrapper from "@/components/MapWrapper";
 import type { MapPin } from "@/components/ProjectsMap";
@@ -10,6 +11,14 @@ export const metadata: Metadata = {
   title: "Projects | BirchBuild",
   description:
     "BirchBuild project portfolio — construction and renovation projects across Chicago's West Town, Ukrainian Village, Wicker Park, and beyond.",
+  alternates: { canonical: "/projects" },
+  openGraph: {
+    title: "Projects | BirchBuild",
+    description:
+      "38 completed projects across Chicago's West Town, Ukrainian Village, Wicker Park, and Bucktown. Three more under construction.",
+    url: "/projects",
+    images: [OG_IMAGE],
+  },
 };
 
 // All real addresses from birchbuild.org — chronological, oldest first

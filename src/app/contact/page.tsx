@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
+import { OG_IMAGE } from "@/app/shared-metadata";
 
 export const metadata: Metadata = {
   title: "Contact | BirchBuild",
   description:
     "Get in touch with BirchBuild to discuss your development or construction management project in Chicago.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact | BirchBuild",
+    description:
+      "Tell us what you're building. Chicago development and construction management.",
+    url: "/contact",
+    images: [OG_IMAGE],
+  },
 };
 
 export default function ContactPage() {

@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
+import { OG_IMAGE } from "@/app/shared-metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About | BirchBuild",
   description:
     "BirchBuild is a veteran-owned Chicago development and construction management firm with 38 completed projects across Wicker Park, Ukrainian Village, Noble Square, and Bucktown.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About | BirchBuild",
+    description:
+      "Veteran-owned Chicago development and construction management. 38 completed projects on the near-northwest side.",
+    url: "/about",
+    images: [OG_IMAGE],
+  },
 };
 
 const values = [

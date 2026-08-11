@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
+import { OG_IMAGE } from "@/app/shared-metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Services | BirchBuild",
   description:
     "Chicago residential and mixed-use development, plus construction management for owners and investors building on the near-northwest side.",
+  alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Services | BirchBuild",
+    description:
+      "Residential and mixed-use development, plus construction management for owners and investors building in Chicago.",
+    url: "/services",
+    images: [OG_IMAGE],
+  },
 };
 
 const services = [
