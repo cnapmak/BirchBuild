@@ -23,7 +23,18 @@ const services = [
   },
 ];
 
+// Chronological, oldest first — matches the portfolio order on /projects
 const featuredProjects = [
+  {
+    name: "2702-12 W. Chicago Ave",
+    type: "Mixed-Use",
+    location: "Humboldt Park, Chicago",
+    status: "Completed",
+    slug: "2702-w-chicago",
+    description:
+      "Twenty residences over ground-floor commercial. Built 2007 · 32,000 sq ft. Shared rooftop deck; private balconies.",
+    img: "/projects/2702-w-chicago/main.jpg",
+  },
   {
     name: "756 N. Leavitt St",
     type: "Mixed-Use",
@@ -43,16 +54,6 @@ const featuredProjects = [
     description:
       "New construction single-family home. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
     img: "/projects/1756-w-wabansia/facade.jpg",
-  },
-  {
-    name: "2702-12 W. Chicago Ave",
-    type: "Mixed-Use",
-    location: "Humboldt Park, Chicago",
-    status: "Completed",
-    slug: "2702-w-chicago",
-    description:
-      "Twenty residences over ground-floor commercial. Built 2007 · 32,000 sq ft. Shared rooftop deck; private balconies.",
-    img: "/projects/2702-w-chicago/main.jpg",
   },
 ];
 

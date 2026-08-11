@@ -670,7 +670,19 @@ export const allPins: MapPin[] = [
   { address: "1314 N. Greenview", lat: 41.9058, lng: -87.6710, type: "Residential" },
 ];
 
+// Chronological, oldest first — matches allProperties
 const featuredProjects = [
+  {
+    name: "2702-12 W. Chicago Ave",
+    neighborhood: "Humboldt Park",
+    type: "Mixed-Use",
+    slug: "2702-w-chicago",
+    address: "2702-12 W. Chicago Ave, Chicago, IL 60622",
+    img: "/projects/2702-w-chicago/main.jpg",
+    description:
+      "Mixed-use development spanning 2702-2712 W. Chicago Ave. Built 2007 · 32,000 sq ft. Twenty residences over 1,400 sq ft of commercial; shared rooftop deck.",
+    highlights: ["20 residences", "Chicago Ave corridor", "Humboldt Park"],
+  },
   {
     name: "756 N. Leavitt St",
     neighborhood: "Ukrainian Village",
@@ -692,17 +704,6 @@ const featuredProjects = [
     description:
       "New construction single-family home. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
     highlights: ["Custom single-family", "New construction", "Bucktown"],
-  },
-  {
-    name: "2702-12 W. Chicago Ave",
-    neighborhood: "Humboldt Park",
-    type: "Mixed-Use",
-    slug: "2702-w-chicago",
-    address: "2702-12 W. Chicago Ave, Chicago, IL 60622",
-    img: "/projects/2702-w-chicago/main.jpg",
-    description:
-      "Mixed-use development spanning 2702-2712 W. Chicago Ave. Built 2007 · 32,000 sq ft. Twenty residences over 1,400 sq ft of commercial; shared rooftop deck.",
-    highlights: ["20 residences", "Chicago Ave corridor", "Humboldt Park"],
   },
 ];
 
