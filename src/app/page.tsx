@@ -28,17 +28,17 @@ const services = [
   },
 ];
 
-// Chronological, oldest first — matches the portfolio order on /projects
+// Reverse chronological, newest first — matches the portfolio order on /projects
 const featuredProjects = [
   {
-    name: "2702-12 W. Chicago Ave",
-    type: "Mixed-Use",
-    location: "Humboldt Park, Chicago",
+    name: "1756 W. Wabansia",
+    type: "Residential",
+    location: "Bucktown, Chicago",
     status: "Completed",
-    slug: "2702-w-chicago",
+    slug: "1756-w-wabansia",
     description:
-      "Twenty residences over ground-floor commercial. Built 2007 · 32,000 sq ft. Shared rooftop deck; private balconies.",
-    img: "/projects/2702-w-chicago/main.jpg",
+      "New construction single-family home. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
+    img: "/projects/1756-w-wabansia/facade.jpg",
   },
   {
     name: "756 N. Leavitt St",
@@ -51,14 +51,14 @@ const featuredProjects = [
     img: "/projects/756-n-leavitt/main.jpg",
   },
   {
-    name: "1756 W. Wabansia",
-    type: "Residential",
-    location: "Bucktown, Chicago",
+    name: "2702-12 W. Chicago Ave",
+    type: "Mixed-Use",
+    location: "Humboldt Park, Chicago",
     status: "Completed",
-    slug: "1756-w-wabansia",
+    slug: "2702-w-chicago",
     description:
-      "New construction single-family home. Built 2015 · 3,000 sq ft. Four bedrooms; garage roof deck.",
-    img: "/projects/1756-w-wabansia/facade.jpg",
+      "Twenty residences over ground-floor commercial. Built 2007 · 32,000 sq ft. Shared rooftop deck; private balconies.",
+    img: "/projects/2702-w-chicago/main.jpg",
   },
 ];
 
