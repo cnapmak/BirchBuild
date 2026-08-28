@@ -1,3 +1,9 @@
+// Canonical origin. Must be the host that serves a 200 — birchbuild.org
+// 307-redirects to www, and crawlers that don't follow redirects on og:image
+// fall back to a generic icon. Used by metadataBase, sitemap.ts, and robots.ts
+// so the three can never disagree.
+export const SITE_URL = "https://www.birchbuild.org";
+
 // Shared Open Graph card details.
 //
 // Next injects the generated opengraph-image automatically, but only into an

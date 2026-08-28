@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "./shared-metadata";
 import { allProperties } from "./projects/page";
 
-const BASE_URL = "https://birchbuild.org";
+const BASE_URL = SITE_URL;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

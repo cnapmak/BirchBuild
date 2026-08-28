@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE_URL } from "./shared-metadata";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import "leaflet/dist/leaflet.css";
@@ -17,7 +18,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   // Required for opengraph-image/twitter-image to resolve to absolute URLs.
-  metadataBase: new URL("https://birchbuild.org"),
+  metadataBase: new URL(SITE_URL),
   title: "BirchBuild | Chicago Development & Construction Management",
   description:
     "BirchBuild develops residential and mixed-use projects across Chicago's near-northwest side, and provides construction management for owners and investors.",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     title: "BirchBuild | Chicago Development & Construction Management",
     description:
       "Residential and mixed-use development plus construction management across Chicago.",
-    url: "https://birchbuild.org",
+    url: SITE_URL,
     siteName: "BirchBuild",
     locale: "en_US",
     type: "website",
