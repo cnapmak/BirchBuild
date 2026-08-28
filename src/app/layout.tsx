@@ -39,6 +39,11 @@ export const metadata: Metadata = {
     description:
       "Residential and mixed-use development plus construction management across Chicago.",
   },
+  // Google Search Console ownership proof for the www property.
+  // Removing this un-verifies the property — leave it in place.
+  verification: {
+    google: "-ZB7_RlafRuSlLqrgj48bOejGv0oHcon2QBb8LbmPYo",
+  },
 };
 
 export default function RootLayout({
