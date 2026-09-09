@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { currentProjects } from "./projects/page";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -108,7 +109,7 @@ export default function Home() {
           </div>
 
           {/* Stats card */}
-          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-8">
+          <div className="bg-[#0a1e38]/65 backdrop-blur-md border border-white/25 rounded-xl p-8">
             <div className="grid grid-cols-2 gap-8">
               {stats.map((stat) => (
                 <div key={stat.label}>
@@ -234,6 +235,42 @@ export default function Home() {
             >
               View All Projects
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Currently Building */}
+      <section className="bg-white py-24">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-14">
+            <div className="text-xs font-semibold uppercase tracking-widest text-[#4A82B5] mb-3">
+              In Progress
+            </div>
+            <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-[#0B2A4A]">
+              Currently Building
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {currentProjects.map((p) => (
+              <div
+                key={p.address}
+                className="border border-[#B5CCE5] rounded-xl p-7"
+              >
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="inline-block w-2 h-2 rounded-full bg-[#2980B9] animate-pulse" />
+                  <span className="text-xs font-semibold uppercase tracking-widest text-[#2980B9]">
+                    Under Construction
+                  </span>
+                </div>
+                <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold text-[#0B2A4A] mb-1">
+                  {p.address}
+                </h3>
+                <div className="text-xs text-[#2980B9] mb-4">{p.neighborhood}, Chicago</div>
+                <div className="text-sm text-[#1C3050]">{p.type}</div>
+                <div className="text-sm font-medium text-[#0B2A4A] mt-1">{p.units}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

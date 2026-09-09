@@ -717,7 +717,7 @@ const featuredProjects = [
 ];
 
 // Projects currently under construction
-const currentProjects = [
+export const currentProjects = [
   {
     address: "1750 W. 19th St",
     neighborhood: "Pilsen",
