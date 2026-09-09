@@ -155,7 +155,7 @@ export default async function PropertyPage({ params }: Props) {
             <div className="text-xs text-[#4A82B5] font-semibold uppercase tracking-widest mb-1">
               BirchBuild Portfolio
             </div>
-            <p className="text-sm text-[#1C3050]">35+ completed projects across Chicago</p>
+            <p className="text-sm text-[#1C3050]">38 completed projects across Chicago</p>
           </div>
           <Link
             href="/projects"

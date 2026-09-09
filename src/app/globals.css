@@ -22,3 +22,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* OpenStreetMap standard tiles are full-color; mute them to match the palette.
+   Filters the tile pane only, so the pins keep their blue. */
+.birch-map .leaflet-tile-pane {
+  filter: grayscale(1) brightness(1.06) contrast(0.9);
+}

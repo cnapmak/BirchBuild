@@ -35,7 +35,7 @@ export default function ProjectsMap({ pins, onPinClick }: Props) {
   const center: [number, number] = [41.905, -87.679];
 
   return (
-    <div className="w-full h-[520px] rounded-xl overflow-hidden border border-[#B5CCE5]">
+    <div className="birch-map w-full h-[520px] rounded-xl overflow-hidden border border-[#B5CCE5]">
       <MapContainer
         center={center}
         zoom={14}
@@ -43,8 +43,9 @@ export default function ProjectsMap({ pins, onPinClick }: Props) {
         style={{ height: "100%", width: "100%" }}
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          maxZoom={19}
         />
         {pins.map((pin) => (
           <Marker
