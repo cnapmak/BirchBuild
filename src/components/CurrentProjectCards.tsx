@@ -49,7 +49,7 @@ export default function CurrentProjectCards({ projects }: { projects: CurrentPro
                     src={photos[cover]}
                     alt={`${p.address} — construction progress`}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover object-[50%_30%] group-hover:scale-105 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                   <span className="absolute bottom-3 right-3 text-xs font-medium text-white bg-black/50 px-2.5 py-1 rounded-full">

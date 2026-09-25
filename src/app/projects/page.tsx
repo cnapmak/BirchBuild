@@ -725,6 +725,7 @@ export const currentProjects: CurrentProject[] = [
     neighborhood: "Pilsen",
     type: "New Construction · Residential",
     units: "3 units",
+    photos: [1, 2, 3].map((n) => `/projects/1750-w-19th/${n}.jpg`),
   },
   {
     address: "2552 W. Madison",
