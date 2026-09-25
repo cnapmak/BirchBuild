@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { currentProjects } from "./projects/page";
+import CurrentProjectCards from "@/components/CurrentProjectCards";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -251,27 +252,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {currentProjects.map((p) => (
-              <div
-                key={p.address}
-                className="border border-[#B5CCE5] rounded-xl p-7"
-              >
-                <div className="flex items-center gap-2 mb-4">
-                  <span className="inline-block w-2 h-2 rounded-full bg-[#2980B9] animate-pulse" />
-                  <span className="text-xs font-semibold uppercase tracking-widest text-[#2980B9]">
-                    Under Construction
-                  </span>
-                </div>
-                <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold text-[#0B2A4A] mb-1">
-                  {p.address}
-                </h3>
-                <div className="text-xs text-[#2980B9] mb-4">{p.neighborhood}, Chicago</div>
-                <div className="text-sm text-[#1C3050]">{p.type}</div>
-                <div className="text-sm font-medium text-[#0B2A4A] mt-1">{p.units}</div>
-              </div>
-            ))}
-          </div>
+          <CurrentProjectCards projects={currentProjects} />
         </div>
       </section>
 

@@ -6,6 +6,8 @@ import type { MapPin } from "@/components/ProjectsMap";
 import ExpandablePropertyGrid from "@/components/ExpandablePropertyGrid";
 import type { Property } from "@/components/ExpandablePropertyGrid";
 import FeaturedProjectCards from "@/components/FeaturedProjectCards";
+import CurrentProjectCards from "@/components/CurrentProjectCards";
+import type { CurrentProject } from "@/components/CurrentProjectCards";
 
 export const metadata: Metadata = {
   title: "Projects | BirchBuild",
@@ -717,7 +719,7 @@ const featuredProjects = [
 ];
 
 // Projects currently under construction
-export const currentProjects = [
+export const currentProjects: CurrentProject[] = [
   {
     address: "1750 W. 19th St",
     neighborhood: "Pilsen",
@@ -729,6 +731,7 @@ export const currentProjects = [
     neighborhood: "Near West Side",
     type: "New Construction · Residential",
     units: "8 units",
+    photos: [1, 2, 3, 4].map((n) => `/projects/2552-w-madison/${n}.jpg`),
   },
   {
     address: "2556 W. Madison",
@@ -797,27 +800,7 @@ export default function ProjectsPage() {
               Currently Building
             </h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {currentProjects.map((p) => (
-              <div
-                key={p.address}
-                className="border border-[#B5CCE5] rounded-xl p-7"
-              >
-                <div className="flex items-center gap-2 mb-4">
-                  <span className="inline-block w-2 h-2 rounded-full bg-[#2980B9] animate-pulse" />
-                  <span className="text-xs font-semibold uppercase tracking-widest text-[#2980B9]">
-                    Under Construction
-                  </span>
-                </div>
-                <h3 className="font-[family-name:var(--font-playfair)] text-xl font-semibold text-[#0B2A4A] mb-1">
-                  {p.address}
-                </h3>
-                <div className="text-xs text-[#2980B9] mb-4">{p.neighborhood}, Chicago</div>
-                <div className="text-sm text-[#1C3050]">{p.type}</div>
-                <div className="text-sm font-medium text-[#0B2A4A] mt-1">{p.units}</div>
-              </div>
-            ))}
-          </div>
+          <CurrentProjectCards projects={currentProjects} />
         </div>
       </section>
 
