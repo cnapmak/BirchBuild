@@ -738,6 +738,7 @@ export const currentProjects: CurrentProject[] = [
     neighborhood: "Near West Side",
     type: "New Construction · Residential",
     units: "8 units",
+    photos: [1, 2].map((n) => `/projects/2556-w-madison/${n}.jpg`),
   },
 ];
 
