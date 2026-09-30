@@ -28,7 +28,15 @@ export const allProperties: Property[] = [
   // 2025
   {
     address: "1900-10 W. Ainslie", neighborhood: "Ravenswood", type: "Residential", slug: "1900-w-ainslie",
-    // Photos pending — prior images were of a different property and were removed 2026-08.
+    img: "/projects/1900-w-ainslie/front-exterior.jpg",
+    extraImages: [
+      "/projects/1900-w-ainslie/open-living-kitchen.jpg",
+      "/projects/1900-w-ainslie/kitchen-island.jpg",
+      "/projects/1900-w-ainslie/living-dining-bay-windows.jpg",
+      "/projects/1900-w-ainslie/kitchen.jpg",
+      "/projects/1900-w-ainslie/bedroom.jpg",
+      "/projects/1900-w-ainslie/bedroom-2.jpg",
+    ],
     description: "Complete gut rehab of a 20-unit rental building spanning 1900-1910 W. Ainslie in Ravenswood. Completed 2025. Fully re-leased apartment property.",
   },
   // 2019
@@ -239,6 +247,17 @@ export const allProperties: Property[] = [
   {
     address: "1731 N. Richmond", neighborhood: "Logan Square", type: "Residential", slug: "1731-n-richmond",
     img: "/projects/1731-n-richmond/main.jpg",
+    extraImages: [
+      "/projects/1731-n-richmond/living-room.jpg",
+      "/projects/1731-n-richmond/living-room-and-stairs.jpg",
+      "/projects/1731-n-richmond/dining-area.jpg",
+      "/projects/1731-n-richmond/kitchen.jpg",
+      "/projects/1731-n-richmond/kitchen-2.jpg",
+      "/projects/1731-n-richmond/primary-bedroom.jpg",
+      "/projects/1731-n-richmond/primary-bathroom.jpg",
+      "/projects/1731-n-richmond/rear-deck-with-fire.jpg",
+      "/projects/1731-n-richmond/roof-deck-with-pergola.jpg",
+    ],
     description: "Single-family home in Logan Square, steps from the 606 trail. Built 2013 · 2,200 sq ft. Walk-out deck and rooftop area.",
   },
   {
@@ -382,6 +401,18 @@ export const allProperties: Property[] = [
   {
     address: "1074 N. Paulina", neighborhood: "East Village", type: "Residential", slug: "1074-n-paulina",
     img: "/projects/1074-n-paulina/main.jpg",
+    extraImages: [
+      "/projects/1074-n-paulina/front-exterior.jpg",
+      "/projects/1074-n-paulina/living-room.jpg",
+      "/projects/1074-n-paulina/kitchen-and-dining.jpg",
+      "/projects/1074-n-paulina/kitchen.jpg",
+      "/projects/1074-n-paulina/dining-and-living-area.jpg",
+      "/projects/1074-n-paulina/primary-bedroom.jpg",
+      "/projects/1074-n-paulina/primary-bathroom.jpg",
+      "/projects/1074-n-paulina/lower-level-family-room.jpg",
+      "/projects/1074-n-paulina/rear-deck-with-pergola.jpg",
+      "/projects/1074-n-paulina/roof-deck.jpg",
+    ],
     description: "Three-unit condo building in East Village, on the Wicker Park border. Built 2009 · 4,800 sq ft.",
   },
   {
@@ -408,12 +439,35 @@ export const allProperties: Property[] = [
   {
     address: "1527 W. Chestnut", neighborhood: "Noble Square", type: "Residential", slug: "1527-w-chestnut",
     img: "/projects/1527-w-chestnut/main.jpg",
+    extraImages: [
+      "/projects/1527-w-chestnut/front-exterior-entry.jpg",
+      "/projects/1527-w-chestnut/living-room.jpg",
+      "/projects/1527-w-chestnut/kitchen.jpg",
+      "/projects/1527-w-chestnut/dining-area.jpg",
+      "/projects/1527-w-chestnut/primary-bedroom.jpg",
+      "/projects/1527-w-chestnut/second-bedroom.jpg",
+      "/projects/1527-w-chestnut/bathroom.jpg",
+      "/projects/1527-w-chestnut/deck-with-pergola.jpg",
+      "/projects/1527-w-chestnut/rear-exterior.jpg",
+    ],
     description: "Three-unit condo building in Noble Square, part of the Ogden Haus development. Built 2009 · 5,600 sq ft. 2,100 sq ft ground-floor unit plus two upper units.",
   },
   // 2008
   {
     address: "2116 W. Barry", neighborhood: "Roscoe Village", type: "Residential", slug: "2116-w-barry",
     img: "/projects/2116-w-barry/main.jpg",
+    extraImages: [
+      "/projects/2116-w-barry/front-exterior.jpg",
+      "/projects/2116-w-barry/living-room.jpg",
+      "/projects/2116-w-barry/living-and-dining.jpg",
+      "/projects/2116-w-barry/kitchen.jpg",
+      "/projects/2116-w-barry/front-balcony.jpg",
+      "/projects/2116-w-barry/primary-bedroom.jpg",
+      "/projects/2116-w-barry/primary-bathroom.jpg",
+      "/projects/2116-w-barry/lower-level-family-room.jpg",
+      "/projects/2116-w-barry/roof-deck.jpg",
+      "/projects/2116-w-barry/rear-deck.jpg",
+    ],
     description: "Three-unit condo building in Roscoe Village, near Hamlin Park. Built 2008 · 4,800 sq ft. Units from 1,300 to 2,300 sq ft.",
   },
   {
@@ -554,11 +608,33 @@ export const allProperties: Property[] = [
   {
     address: "2032 W. Superior", neighborhood: "Ukrainian Village", type: "Residential", slug: "2032-w-superior",
     img: "/projects/2032-w-superior/main.jpg",
+    extraImages: [
+      "/projects/2032-w-superior/front-exterior.jpg",
+      "/projects/2032-w-superior/living-room-with-fireplace.jpg",
+      "/projects/2032-w-superior/living-area-kitchen.jpg",
+      "/projects/2032-w-superior/kitchen.jpg",
+      "/projects/2032-w-superior/recreation-room-with-fireplace.jpg",
+      "/projects/2032-w-superior/floating-staircase.jpg",
+      "/projects/2032-w-superior/primary-bedroom.jpg",
+      "/projects/2032-w-superior/primary-bathroom.jpg",
+      "/projects/2032-w-superior/private-roof-deck.jpg",
+      "/projects/2032-w-superior/roof-deck-skyline-view.jpg",
+    ],
     description: "Three-unit condo building in Ukrainian Village, one block off the Chicago Avenue corridor. Built 2006 · 5,400 sq ft.",
   },
   {
     address: "1849 W. Armitage", neighborhood: "Bucktown", type: "Residential", slug: "1849-w-armitage",
     img: "/projects/1849-w-armitage/main.webp",
+    extraImages: [
+      "/projects/1849-w-armitage/living-room.jpg",
+      "/projects/1849-w-armitage/living-and-dining.jpg",
+      "/projects/1849-w-armitage/dining.jpg",
+      "/projects/1849-w-armitage/kitchen.jpg",
+      "/projects/1849-w-armitage/primary-bedroom.jpg",
+      "/projects/1849-w-armitage/primary-bathroom.jpg",
+      "/projects/1849-w-armitage/second-bedroom.jpg",
+      "/projects/1849-w-armitage/rear-deck.jpg",
+    ],
     description: "Three-unit condo building on Bucktown's Armitage corridor. Built 2006 · 4,800 sq ft. Detached garage.",
   },
   // 2005
