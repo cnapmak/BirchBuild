@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Lightbox from "./Lightbox";
 
 interface Props {
   baseUrl: string;
@@ -101,61 +102,14 @@ export default function ImageGallery({ baseUrl, address, maxPhotos = 12, extraIm
         ))}
       </div>
 
-      {/* Lightbox */}
       {lightbox !== null && (
-        <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
-          onClick={() => setLightbox(null)}
-        >
-          <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" />
-
-          {/* Prev */}
-          {lightbox > 0 && (
-            <button
-              className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-black/50 text-white text-2xl flex items-center justify-center hover:bg-black/70 transition-colors"
-              onClick={(e) => { e.stopPropagation(); setLightbox(lightbox - 1); }}
-              aria-label="Previous"
-            >
-              ‹
-            </button>
-          )}
-
-          <div
-            className="relative z-10 w-full max-w-4xl aspect-[4/3] rounded-xl overflow-hidden shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image
-              src={photos[lightbox]}
-              alt={`${address} — photo ${lightbox + 1}`}
-              fill
-              className="object-cover"
-              sizes="896px"
-            />
-            <div className="absolute bottom-3 right-4 text-xs text-white/70 bg-black/40 px-2 py-0.5 rounded-full">
-              {lightbox + 1} / {photos.length}
-            </div>
-          </div>
-
-          {/* Next */}
-          {lightbox < photos.length - 1 && (
-            <button
-              className="absolute right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-black/50 text-white text-2xl flex items-center justify-center hover:bg-black/70 transition-colors"
-              onClick={(e) => { e.stopPropagation(); setLightbox(lightbox + 1); }}
-              aria-label="Next"
-            >
-              ›
-            </button>
-          )}
-
-          {/* Close */}
-          <button
-            className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/50 text-white flex items-center justify-center hover:bg-black/70 transition-colors text-lg"
-            onClick={() => setLightbox(null)}
-            aria-label="Close"
-          >
-            ×
-          </button>
-        </div>
+        <Lightbox
+          photos={photos}
+          index={lightbox}
+          label={address}
+          onIndexChange={setLightbox}
+          onClose={() => setLightbox(null)}
+        />
       )}
     </>
   );

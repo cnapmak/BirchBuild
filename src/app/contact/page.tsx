@@ -41,24 +41,38 @@ export default function ContactPage() {
               <input type="hidden" name="_next" value="https://www.birchbuild.org/thank-you" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
+              {/* Honeypot: hidden from people, filled in by bots; FormSubmit drops those submissions */}
+              <input
+                type="text"
+                name="_honey"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                className="hidden"
+              />
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
+                  <label htmlFor="firstName" className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
                     First Name
                   </label>
                   <input
                     type="text"
+                    id="firstName"
+                    autoComplete="given-name"
+                    required
                     name="firstName"
                     className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors"
                     placeholder="Jane"
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
+                  <label htmlFor="lastName" className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
                     Last Name
                   </label>
                   <input
                     type="text"
+                    id="lastName"
+                    autoComplete="family-name"
                     name="lastName"
                     className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors"
                     placeholder="Smith"
@@ -67,11 +81,14 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
+                <label htmlFor="email" className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
                   Email
                 </label>
                 <input
                   type="email"
+                  id="email"
+                  autoComplete="email"
+                  required
                   name="email"
                   className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors"
                   placeholder="jane@company.com"
@@ -79,11 +96,13 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
+                <label htmlFor="company" className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
                   Company
                 </label>
                 <input
                   type="text"
+                  id="company"
+                  autoComplete="organization"
                   name="company"
                   className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors"
                   placeholder="Your company name"
@@ -91,10 +110,11 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
+                <label htmlFor="projectType" className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
                   Project Type
                 </label>
                 <select
+                  id="projectType"
                   name="projectType"
                   className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors"
                 >
@@ -109,10 +129,12 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
+                <label htmlFor="message" className="block text-xs font-semibold uppercase tracking-widest text-[#1C3050] mb-2">
                   Tell Us About Your Project
                 </label>
                 <textarea
+                  id="message"
+                  required
                   name="message"
                   rows={5}
                   className="w-full border border-[#B5CCE5] rounded-lg px-4 py-3 text-sm text-[#0B2A4A] bg-[#EEF4FB] focus:outline-none focus:border-[#1A4F8A] transition-colors resize-none"

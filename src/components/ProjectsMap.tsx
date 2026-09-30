@@ -32,13 +32,16 @@ interface Props {
 }
 
 export default function ProjectsMap({ pins, onPinClick }: Props) {
-  const center: [number, number] = [41.905, -87.679];
+  // Frame every pin rather than a fixed center/zoom, so outlying projects aren't cut off.
+  const bounds = L.latLngBounds(pins.map((p) => [p.lat, p.lng] as [number, number]));
 
   return (
-    <div className="birch-map w-full h-[520px] rounded-xl overflow-hidden border border-[#B5CCE5]">
+    // `isolate` keeps Leaflet's z-indexed panes and controls (400–1000) below the sticky header.
+    <div className="birch-map isolate w-full h-[520px] rounded-xl overflow-hidden border border-[#B5CCE5]">
       <MapContainer
-        center={center}
-        zoom={14}
+        bounds={bounds}
+        boundsOptions={{ padding: [24, 24] }}
+        zoomSnap={0.25}
         scrollWheelZoom={false}
         style={{ height: "100%", width: "100%" }}
       >
