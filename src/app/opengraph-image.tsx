@@ -12,7 +12,7 @@ export const contentType = "image/png";
 const stats = [
   { value: "38", label: "Buildings" },
   { value: "$66M", label: "Construction Value" },
-  { value: "170+", label: "Residences" },
+  { value: "151+", label: "Residences" },
   { value: "20+", label: "Years" },
 ];
 

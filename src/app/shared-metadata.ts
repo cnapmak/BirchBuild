@@ -13,7 +13,7 @@ export const SITE_URL = "https://www.birchbuild.org";
 // `metadataBase` set in layout.tsx.
 
 export const OG_ALT =
-  "BirchBuild — Chicago development and construction management. 38 buildings, $66M in construction value, 170+ residences delivered.";
+  "BirchBuild — Chicago development and construction management. 38 buildings, $66M in construction value, 151+ residences and 280,000 sq ft delivered.";
 
 export const OG_IMAGE = {
   url: "/opengraph-image",

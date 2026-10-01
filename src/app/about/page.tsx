@@ -102,14 +102,15 @@ export default function AboutPage() {
             {[
               { n: "38", label: "Completed projects across Chicago" },
               { n: "$66M+", label: "Construction value" },
-              { n: "170+", label: "Residences delivered" },
+              { n: "151+", label: "Residences delivered" },
+              { n: "280,000", label: "Square feet built, residential and commercial" },
               { n: "20+", label: "Years of experience" },
             ].map((s) => (
               <div
                 key={s.label}
                 className="flex items-center gap-5 border border-[#B5CCE5] rounded-xl px-6 py-5"
               >
-                <div className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#1A4F8A] w-20 shrink-0">
+                <div className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#1A4F8A] w-36 shrink-0">
                   {s.n}
                 </div>
                 <div className="text-sm text-[#1C3050]">{s.label}</div>

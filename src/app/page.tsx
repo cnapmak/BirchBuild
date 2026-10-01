@@ -11,7 +11,8 @@ export const metadata: Metadata = {
 const stats = [
   { value: "38", label: "Projects Completed" },
   { value: "$66M+", label: "Construction Value" },
-  { value: "170+", label: "Residences Delivered" },
+  { value: "151+", label: "Residences Delivered" },
+  { value: "280,000", label: "Sq Ft Built" },
   { value: "20+", label: "Years Experience" },
 ];
 

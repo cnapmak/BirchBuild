@@ -21,7 +21,7 @@ const services = [
     title: "Development",
     subtitle: "Residential & Mixed-Use",
     description:
-      "38 buildings across Chicago's near-northwest side — new construction, mixed-use, gut rehab, and condo conversion. 170+ residences delivered. $66M in construction value.",
+      "38 buildings across Chicago's near-northwest side — new construction, mixed-use, gut rehab, and condo conversion. 151+ residences and 280,000 sq ft delivered. $66M in construction value.",
   },
   {
     title: "Construction Management",
