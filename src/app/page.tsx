@@ -111,18 +111,18 @@ export default function Home() {
           </div>
 
           {/* Stats card */}
-          <div className="bg-[#0a1e38]/65 backdrop-blur-md border border-white/25 rounded-xl p-8">
-            <div className="grid grid-cols-2 gap-8">
+          <div className="bg-[#0a1e38]/65 backdrop-blur-md border border-white/25 rounded-xl px-7 py-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-5">
               {stats.map((stat) => (
                 <div key={stat.label}>
-                  <div className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-1">
+                  <div className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-white mb-0.5">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-[#7BB5D8]">{stat.label}</div>
+                  <div className="text-xs text-[#7BB5D8]">{stat.label}</div>
                 </div>
               ))}
             </div>
-            <div className="mt-8 pt-6 border-t border-white/10 text-xs text-[#5AAED6] font-medium uppercase tracking-widest">
+            <div className="mt-5 pt-4 border-t border-white/10 text-xs text-[#5AAED6] font-medium uppercase tracking-widest">
               West Town · Ukrainian Village · Wicker Park · Bucktown
             </div>
           </div>
