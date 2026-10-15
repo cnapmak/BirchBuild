@@ -10,6 +10,8 @@ export const metadata: Metadata = {
 
 const stats = [
   { value: "38", label: "Projects Completed" },
+  // Counted from the Currently Building list so it stays right as projects finish.
+  { value: String(currentProjects.length), label: "Under Construction" },
   { value: "$66M+", label: "Construction Value" },
   { value: "151+", label: "Residences Delivered" },
   { value: "280,000", label: "Sq Ft Built" },
